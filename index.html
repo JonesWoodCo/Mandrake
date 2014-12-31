@@ -18,6 +18,7 @@
         <script src="jquery-ui.js"></script>
         <script src="socialmed.js"></script>
         <script src="navscroll.js"></script>
+	<script src="messageJS.js"></script>
 	
 </head>
 
@@ -33,7 +34,7 @@
                         <li class="newsLink mainNav"><a href="#">News</a></li>
 			<li class="workLink mainNav"><a href="#">Work</a></li>
                         <li class="aboutLink mainNav"><a href="#">About</a></li>
-                        <li class="contactLink mainNav"><a href="#">Contact</a></li>
+                        <li class="contactLink mainNav messageSocialButton"><a href="#">Contact</a></li>
                        
 		</ul>
 	</nav>
@@ -45,8 +46,8 @@
             <div class="linkedin buttonanimator">
                 <a href="#"><img class="socialButtons" style= "position: absolute; top: 70px; right: 10px;" src="linkedin.png"></a>
             </div>
-            <div class="twitter buttonanimator">
-                <a href="#"><img class="socialButtons" style= "position: absolute; top: 105px; right: 10px;" src="twitter.png"></a>
+            <div class="dribble buttonanimator">
+                <a href="#"><img class="socialButtons" style= "position: absolute; top: 105px; right: 10px;" src="dribbble.png"></a>
             </div>
             <div class="instagram buttonanimator">
                 <a href="#"><img class="socialButtons" style= "position: absolute; top: 140px; right: 10px;" src="instagram.png"></a>
@@ -54,8 +55,8 @@
             <div class="googleplus buttonanimator">
                 <a href="#"><img class="socialButtons" style= "position: absolute; top: 175px; right: 10px;" src="googleplus.png"></a>
             </div>
-            <div class="dribbble buttonanimator">
-                <a href="#"><img class="socialButtons" style= "position: absolute; top: 210px; right: 10px;" src="dribbble.png"></a>
+            <div class="message buttonanimator">
+                <a href="#"><img class="socialButtons messageSocialButton" style= "position: absolute; top: 210px; right: 10px;" src="mail.png"></a>
             </div>
 
 </section>
@@ -90,7 +91,7 @@
 <script>
    $(document).ready(function(){
 	   $(window).bind('scroll', function() {
-	   var navHeight = $( window ).height() - 705;
+	   var navHeight = $( window ).height() - 525;
 			 if ($(window).scrollTop() > navHeight) {
 				 $('nav').addClass('fixed');
 			 }

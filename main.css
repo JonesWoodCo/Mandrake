@@ -1,0 +1,129 @@
+/*
+Tutorial Name: Scroll To Top Then Fixed Navigation Effect With JQuery and CSS
+Description: Create a sticky navigation bar that remains fixed to the top after scroll
+Author: Stanislav Kostadinov
+Author URI: http://stanislav.it
+Version: 1.0.0 - 11.01.2014
+*/
+
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+/* This class is added on scroll */
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 30px; 
+	z-index: 1;
+}
+
+body {
+    background-image: url(background.png);
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Font Face Settings */
+@font-face {
+    font-family: 'open-sans-bold';
+	src: url('../fonts/open-sans/OpenSans-Bold.eot');
+    src: url('../fonts/open-sans/OpenSans-Bold.eot?iefix') format('embedded-opentype'),
+		 url('../fonts/open-sans/OpenSans-Bold.ttf');
+    font-weight: normal;
+}	
+
+/* Navigation Settings */
+nav {
+	position: absolute;
+	top: 250px;
+	width: 100%;
+	height: 30px;
+	background: #ffffff;
+}
+
+.mainNav {
+	display: inline-block;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+nav li a {
+	color: #808080;
+	
+}
+
+a:hover{
+    color: #e6e6e6;
+    text-decoration: underline;
+}
+
+/* Screens Settings */
+#top {	
+	/*background: #ffffff;*/
+        height: 280px;
+}
+
+#top p {
+	padding-top: 0px;
+        
+}
+
+#about {
+	background: #c2c2c2;
+        height: 600px;
+}
+
+#news {
+	background: #999999;
+        height: 600px;
+}
+#work {
+	background: #c2c2c2;
+        height: 600px;
+}
+#contact {
+    height: 550px;
+	background: #ffffff;
+        color: #bf5529;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-top: 20px;
+}
+.messageBox{
+    float: left;
+}
+#bottom{
+   color: #bf5529;
+    height: 40px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+/*SOCIAL MEDIA NAV */
+.buttonanimator{
+    opacity: 1.0;
+}
+.buttonanimator:hover{
+    opacity: 0.5;
+}
+/*MOBILE*/
+
+@media only screen and (max-width: 520px) {
+
+	nav li {
+		padding: 0px;
+	}
+
+	nav li a {
+		font-size: 14px;
+	}
+
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+	<!-- Meta tags & title /-->
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="robots" content="all,index,follow" />
+
+	<title>Commonwealth Design</title>
+	<meta name="description" content="Create a sticky navigation bar that remains fixed to the top after scroll" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="main.css" /> <!-- Main stylesheet /-->
+        <script src="jquery.js"></script>
+        <script type='text/javascript' src='jquery-scrollto.js'></script>
+        <script src="jquery-ui.js"></script>
+        <script src="socialmed.js"></script>
+        <script src="navscroll.js"></script>
+	
+</head>
+
+<body>
+
+<section id="top">
+	<div class="logoSection" style=" width: 100%; height: 250px; position: absolute; top: 0px;">
+		<img style="margin-left: auto; margin-right: auto; height: 250px;" src="logo.png">
+	</div>
+	<nav>
+		<ul>
+			<li class= "homeLink mainNav"><a href="#">Home</a></li>
+                        <li class="newsLink mainNav"><a href="#">News</a></li>
+			<li class="workLink mainNav"><a href="#">Work</a></li>
+                        <li class="aboutLink mainNav"><a href="#">About</a></li>
+                        <li class="contactLink mainNav"><a href="#">Contact</a></li>
+                       
+		</ul>
+	</nav>
+        
+        
+            <div class="facebook buttonanimator">
+                <a href="http://www.facebook.com"><img class="socialButtons" style= "position: absolute; top: 35px; right: 10px;" src="facebook.png"></a>
+            </div>
+            <div class="linkedin buttonanimator">
+                <a href="#"><img class="socialButtons" style= "position: absolute; top: 70px; right: 10px;" src="linkedin.png"></a>
+            </div>
+            <div class="twitter buttonanimator">
+                <a href="#"><img class="socialButtons" style= "position: absolute; top: 105px; right: 10px;" src="twitter.png"></a>
+            </div>
+            <div class="instagram buttonanimator">
+                <a href="#"><img class="socialButtons" style= "position: absolute; top: 140px; right: 10px;" src="instagram.png"></a>
+            </div>
+            <div class="googleplus buttonanimator">
+                <a href="#"><img class="socialButtons" style= "position: absolute; top: 175px; right: 10px;" src="googleplus.png"></a>
+            </div>
+            <div class="dribbble buttonanimator">
+                <a href="#"><img class="socialButtons" style= "position: absolute; top: 210px; right: 10px;" src="dribbble.png"></a>
+            </div>
+
+</section>
+	
+<section id="about">
+	about section
+</section>
+<section id="news">
+	news section
+</section>
+<section id="work">
+	work section
+</section>
+<section id="contact">
+	<div class="messageBox">
+	<!-- Do not change the code! -->
+                <a id="foxyform_embed_link_621684" href="http://www.foxyform.com/">foxyform</a>
+                <script type="text/javascript">
+                    (function(d, t){
+                        var g = d.createElement(t),
+                             s = d.getElementsByTagName(t)[0];
+                                g.src = "http://www.foxyform.com/js.php?id=621684&sec_hash=6e476cbc544&width=350px";
+                                 s.parentNode.insertBefore(g, s);
+                    }(document, "script"));
+                </script>
+                <!-- Do not change the code! -->
+                </div>
+</section>
+
+<section id="bottom"> Mandrake Design, Est. 2014. All Rights Reserved.</section>
+
+<script>
+   $(document).ready(function(){
+	   $(window).bind('scroll', function() {
+	   var navHeight = $( window ).height() - 705;
+			 if ($(window).scrollTop() > navHeight) {
+				 $('nav').addClass('fixed');
+			 }
+			 else {
+				 $('nav').removeClass('fixed');
+			 }
+		});
+	});
+</script>
+
+</body>
+</html>

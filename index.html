@@ -11,6 +11,7 @@
 	<title>Mandrake Design</title>
 	<meta name="description" content="Create a sticky navigation bar that remains fixed to the top after scroll" />
 	
+	
 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="main.css" /> <!-- Main stylesheet /-->
         <script src="jquery.js"></script>
@@ -30,34 +31,24 @@
 	</div>
 	<nav>
 		<ul>
-			<li class= "homeLink mainNav"><a href="#">Home</a></li>
-			<li class="aboutLink mainNav"><a href="#">About</a></li>
-                        <li class="newsLink mainNav"><a href="#">News</a></li>
-			<li class="workLink mainNav"><a href="#">Work</a></li>
-                        <li class="contactLink mainNav messageSocialButton"><a href="#">Contact</a></li>
-                       
+			<li class= "homeLink mainNav"><a href="#">HOME</a></li>
+			<li class= "homeLink mainNav slash">\</li>
+			<li class="aboutLink mainNav"><a href="#">ABOUT</a></li>
+			<li class= "homeLink mainNav slash">\</li>
+                        <li class="newsLink mainNav"><a href="#">NEWS</a></li>
+			<li class= "homeLink mainNav slash">\</li>
+			<li class="workLink mainNav"><a href="#">WORK</a></li>
+			<li class= "homeLink mainNav slash">\</li>
+                        <li class="contactLink mainNav messageSocialButton"><a href="#">CONTACT</a></li>
+			
+			<li class="message buttonanimator mainNav"><a href="http://www.facebook.com"><img class="socialButtons" src="mail.png"></a></li>
+			<li class="linkedin buttonanimator mainNav"><a href="http://www.facebook.com"><img class="socialButtons" src="linkedin.png"></a></li>
+			<li class="instagram buttonanimator mainNav"><a href="http://www.facebook.com"><img class="socialButtons" src="instagram.png"></a></li>
+			<li class="facebook buttonanimator mainNav"><a href="http://www.facebook.com"><img class="socialButtons" src="facebook.png"></a></li>  
 		</ul>
+		
 	</nav>
         
-        
-            <div class="facebook buttonanimator">
-                <a href="http://www.facebook.com"><img class="socialButtons" style= "position: absolute; top: 35px; right: 10px;" src="facebook.png"></a>
-            </div>
-            <div class="linkedin buttonanimator">
-                <a href="#"><img class="socialButtons" style= "position: absolute; top: 70px; right: 10px;" src="linkedin.png"></a>
-            </div>
-            <div class="dribble buttonanimator">
-                <a href="#"><img class="socialButtons" style= "position: absolute; top: 105px; right: 10px;" src="dribbble.png"></a>
-            </div>
-            <div class="instagram buttonanimator">
-                <a href="#"><img class="socialButtons" style= "position: absolute; top: 140px; right: 10px;" src="instagram.png"></a>
-            </div>
-            <div class="googleplus buttonanimator">
-                <a href="#"><img class="socialButtons" style= "position: absolute; top: 175px; right: 10px;" src="googleplus.png"></a>
-            </div>
-            <div class="message buttonanimator">
-                <a href="#"><img class="socialButtons messageSocialButton" style= "position: absolute; top: 210px; right: 10px;" src="mail.png"></a>
-            </div>
 
 </section>
 
@@ -101,7 +92,7 @@
 <script>
    $(document).ready(function(){
 	   $(window).bind('scroll', function() {
-	   var navHeight = $( window ).height() - 525;
+	   var navHeight = $( window ).height() - 625;
 			 if ($(window).scrollTop() > navHeight) {
 				 $('nav').addClass('fixed');
 			 }

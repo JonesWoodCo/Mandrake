@@ -24,29 +24,14 @@ This class is added on scroll
 }
 
 body {
-    background-image: url(background.png);
+    background-image: url();
     background-position: top;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #ffffff;
     font-family: 'Raleway', sans-serif; 
     font-size: 18px;
-    text-align: center;
-}
-
-
-
-
-/* ====================================================================================
-Font Face Settings
-=====================================================================================*/
-
-@font-face {
-    font-family: 'open-sans-bold';
-	src: url('../fonts/open-sans/OpenSans-Bold.eot');
-    src: url('../fonts/open-sans/OpenSans-Bold.eot?iefix') format('embedded-opentype'),
-		 url('../fonts/open-sans/OpenSans-Bold.ttf');
-    font-weight: normal;
+    
 }
 
 
@@ -61,27 +46,36 @@ nav {
 	top: 250px;
 	width: 100%;
 	height: 30px;
-	background: #ffffff;
-}
+	background: #000000;
 
+}
+ul{
+	margin-right: 200px;
+	margin-left: 200px;
+}
 .mainNav {
 	display: inline-block;
 	padding-top: 4px;
 	padding-bottom: 4px;
-	padding-left: 30px;
-	padding-right: 30px;
+	
+	padding-right: 5px;
 }
 
 nav li a {
-	color: #808080;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.7em;
 	
 }
 
 a:hover{
-    color: #e6e6e6;
-    text-decoration: underline;
+    color: #f95248;
+    
 }
 
+.slash{
+	font-size: 0.7em;
+}
 
 
 
@@ -169,12 +163,17 @@ SOCIAL MEDIA NAV
 
 .buttonanimator{
     opacity: 1.0;
+    float: right;
+   
+    
 }
 .buttonanimator:hover{
     opacity: 0.5;
 }
 
-
+.socialButtons{
+	height: 22px;
+}
 
 /*=========================================================================
 MOBILE

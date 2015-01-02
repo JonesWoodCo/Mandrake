@@ -1,16 +1,21 @@
-/*
-Tutorial Name: Scroll To Top Then Fixed Navigation Effect With JQuery and CSS
-Description: Create a sticky navigation bar that remains fixed to the top after scroll
-Author: Stanislav Kostadinov
-Author URI: http://stanislav.it
-Version: 1.0.0 - 11.01.2014
-*/
 
-* {margin: 0; padding: 0;}
+* {
+	margin: 0;
+	padding: 0;
+}
 
-a {text-decoration: none;}
+a {
+	text-decoration: none;
+}
 
-/* This class is added on scroll */
+body{
+	overflow-x: hidden;
+}
+
+
+/* ====================================================================================
+This class is added on scroll
+=====================================================================================*/
 .fixed {
 	position: fixed; 
 	top: 0; 
@@ -29,16 +34,28 @@ body {
     text-align: center;
 }
 
-/* Font Face Settings */
+
+
+
+/* ====================================================================================
+Font Face Settings
+=====================================================================================*/
+
 @font-face {
     font-family: 'open-sans-bold';
 	src: url('../fonts/open-sans/OpenSans-Bold.eot');
     src: url('../fonts/open-sans/OpenSans-Bold.eot?iefix') format('embedded-opentype'),
 		 url('../fonts/open-sans/OpenSans-Bold.ttf');
     font-weight: normal;
-}	
+}
 
-/* Navigation Settings */
+
+
+
+/* ===================================================================================
+Navigation Settings
+====================================================================================*/
+
 nav {
 	position: absolute;
 	top: 250px;
@@ -65,9 +82,16 @@ a:hover{
     text-decoration: underline;
 }
 
-/* Screens Settings */
+
+
+
+
+
+/* ====================================================================================
+Sections
+=====================================================================================*/
+
 #top {	
-	/*background: #ffffff;*/
         height: 280px;
 }
 
@@ -77,25 +101,54 @@ a:hover{
 }
 
 #about {
-	background: #c2c2c2;
-        height: 600px;
+	padding-top: 50px;
+	background: #ffffff;
+        height: 300px;
 }
 
 #news {
-	background: #999999;
-        height: 600px;
+	background: #ffffff;
+        height: 250px;
+	width: 100%;
+	margin-left: 75px;
+	margin-right: 75px;
+	
+}
+.article{
+	background-color: #e6e6e6;
+	height: 200px;
+	width: 380px;
+	float: left;
+	margin: 5px;
+	padding: 0px;
+	border: 0px;
 }
 #work {
 	background: #c2c2c2;
         height: 600px;
 }
 #contact {
-    height: 550px;
+	position: fixed;
+	top: 175px;
+	left: 500px;
+	height: 475px;
+	width: 375px;
 	background: #ffffff;
         color: #bf5529;
-        padding-left: 300px;
-        padding-right: 300px;
-        padding-top: 20px;
+        box-shadow: 0px 10px 20px #000000;
+	
+}
+#x{
+	color: #1f1f1f;
+	background-color: transparent;
+	font-size: 30px;
+	color: #1f1f1f;
+	margin-left: auto;
+	margin-bottom: auto;
+	position: fixed;
+	top: 175px;
+	left: 850px;
+	z-index: 1030;
 }
 .messageBox{
     float: left;
@@ -107,14 +160,25 @@ a:hover{
     margin-bottom: 20px;
     padding-top: 20px;
 }
-/*SOCIAL MEDIA NAV */
+
+
+
+/*==========================================================================
+SOCIAL MEDIA NAV
+===========================================================================*/
+
 .buttonanimator{
     opacity: 1.0;
 }
 .buttonanimator:hover{
     opacity: 0.5;
 }
-/*MOBILE*/
+
+
+
+/*=========================================================================
+MOBILE
+==========================================================================*/
 
 @media only screen and (max-width: 520px) {
 

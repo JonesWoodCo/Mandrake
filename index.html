@@ -91,12 +91,20 @@
                 </div>
 </div>
 
-<section id="bottom"> Mandrake Design, Est. 2014. All Rights Reserved.</section>
+<section id="bottom"> <p style="text-align: center; font-size: 0.75em;">Mandrake Design, Est. 2014. All Rights Reserved.</p></section>
 
+
+
+
+
+
+
+
+<!--voodoo magic below-->
 <script>
    $(document).ready(function(){
 	   $(window).bind('scroll', function() {
-	   var navHeight = $( window ).height() - 925;
+	   var navHeight = $( window ).height() - 725;
 			 if ($(window).scrollTop() > navHeight) {
 				 $('nav').addClass('fixed');
 			 }
@@ -106,16 +114,21 @@
 		});
 	});
 </script>
-
+<script type="text/javascript" src="skrollr.min.js"></script>
+	<script type="text/javascript">
+	skrollr.init({
+		smoothScrolling: false,
+		mobileDeceleration: 0.004
+	});
+	</script>
 </body>
 </html>
 
 <!--
 =======================================================
-parallax scrolling tutorials
+parallax scrolling tutorial
 
 https://github.com/Prinzhorn/skrollr
 
-http://keithclark.co.uk/articles/pure-css-parallax-websites/
 =======================================================
 -->

@@ -18,7 +18,7 @@ body {
     background-position: top;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #ffffff;
+    color: #000000;
     font-family: 'Raleway', sans-serif; 
     font-size: 18px;
     
@@ -54,7 +54,7 @@ Sections / Top
 .buttonanimator{
     opacity: 1.0;
     float: right;
-   
+   margin-left: 10px;
     
 }
 .buttonanimator:hover{
@@ -102,8 +102,9 @@ Sections /  About
 =====================================================================================*/
 
 #about {
+	margin-top: 350px;
 	padding-top: 20px;
-	background: #F5F5F5;
+	background: #33ccff;
         height: 600px;
 	padding-left: 200px;
 	padding-right: 200px;
@@ -180,11 +181,12 @@ Sections /  Contact
 Sections /   Bottom
 =====================================================================================*/
 #bottom{
-   color: #808080;
-    height: 40px;
-    font-size: 12px;
-    margin-bottom: 20px;
-    padding-top: 20px;
+	color: #808080;
+	height: 40px;
+	font-size: 0.75em;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 20px;
 }
 
 

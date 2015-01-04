@@ -102,11 +102,11 @@ Sections /  About
 =====================================================================================*/
 
 #about {
-	margin-top: 350px;
+	margin-top: 0px;
 	padding-top: 20px;
-	background: #33ccff;
+	background: #70DBFF;
         height: 600px;
-	padding-left: 200px;
+	
 	padding-right: 200px;
 }
 

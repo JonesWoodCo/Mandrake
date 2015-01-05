@@ -98,57 +98,102 @@ body {
 
 
 
-/* style the groups
---------------------------------------------- */
+/* =============================================
+ Group 1
+ ==============================================*/
 
 #group1 {
     z-index: 5; /* slide over group 2 */
 }
 #group1 .parallax__layer--base {
-    background-image: url(img/1.jpg);
+    background-image: url(meFlat.png);
+     background-repeat: no-repeat;
 }
+
+
+
+
+
+/* ==============================================
+ Group 2  RED RED RED RED RED RED RED RED RED
+ ==============================================*/
 
 #group2 {
     z-index: 3; /* slide under groups 1 and 3 */
 }
 #group2 .parallax__layer--back {
-    background-image: url(img/2.jpg);
+    background-image: url(meFlatRed.png);
+     background-repeat: no-repeat;
 }
 
+
+
+
+/* ==============================================
+ Group 3 YELLOW YELLOW  YELLOW YELLOW YELLOW
+ ==============================================*/
 #group3 {
     z-index: 4; /* slide over group 2 and 4 */
 }
 #group3 .parallax__layer--base {
-    background-image: url(meFlat.png);
+    background-image: url(meFlatYellow.png);
     background-repeat: no-repeat;
 }
 
+
+
+
+/* ==============================================
+ Group 4 PINK PINK PINK PINK PINK PINK PINK PINK PINK PINK
+ ==============================================*/
 #group4 {
     z-index: 2; /* slide under group 3 and 5 */
 }
 #group4 .parallax__layer--deep {
-    background-image: url(img/4.jpg)
+   background-image: url(meFlatPink.png);
+     background-repeat: no-repeat;
 }
 
+
+
+
+/* ==============================================
+ Group 5 GREEN GREEN GREEN GREEN GREEN GREEN GREEN
+ ==============================================*/
 #group5 {
     z-index: 3; /* slide over group 4 and 6 */
 }
 #group5 .parallax__layer--base {
-    background-image: url(img/5.jpg);
+  background-image: url(meFlatGreen.png);
+     background-repeat: no-repeat;
 }
 
+
+
+
+/* ==============================================
+ Group 6 BLUE BLUE BLUE BLUE BLUE BLUE BLUE BLUE
+ ==============================================*/
 #group6 {
     z-index: 2; /* slide under group 5 and 7 */
 }
 #group6 .parallax__layer--back {
-    background-image: url(img/6.jpg);
+   background-image: url(meFlatBlue.png);
+     background-repeat: no-repeat;
 }
 
+
+
+
+/* ==============================================
+ Group 7 PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE
+ ==============================================*/
 #group7 {
     z-index: 3; /* slide over group 7 */
 }
 #group7 .parallax__layer--base {
-    background-image: url(img/8.jpg);
+   background-image: url(meFlatPurple.png);
+     background-repeat: no-repeat;
 }
 
 
@@ -163,3 +208,102 @@ body {
     text-align:center;
     width: 100%;
 }
+a {
+	text-decoration: none;
+}
+a:hover{
+    color: #f95248;
+    
+}
+.body{
+    background-color: #70DBFF;
+}
+/* ====================================================================================
+Sections / Top
+=====================================================================================*/
+
+#top {	
+        height: 130px;
+	background-color: #fffffff;
+}
+
+#top p {
+	padding-top: 0px;
+        
+}
+
+.buttonanimator{
+    opacity: 1.0;
+    float: right;
+   margin-left: 10px;
+    
+}
+.buttonanimator:hover{
+    opacity: 0.5;
+}
+
+.socialButtons{
+	height: 22px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+
+nav {
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	height: 30px;
+	background: #000000;
+
+}
+ul{
+	margin-right: 200px;
+	margin-left: 200px;
+}
+.mainNav {
+	display: inline-block;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	
+	padding-right: 5px;
+}
+
+nav li a {
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.7em;
+	
+}
+.slash{
+	font-size: 0.7em;
+}
+
+/* ====================================================================================
+Sections /  Contact
+=====================================================================================*/
+#contact {
+	position: fixed;
+	top: 175px;
+	left: 500px;
+	height: 475px;
+	width: 375px;
+	background: #ffffff;
+        color: #bf5529;
+        box-shadow: 0px 10px 20px #000000;
+	
+}
+#x{
+	color: #1f1f1f;
+	background-color: transparent;
+	font-size: 30px;
+	color: #1f1f1f;
+	margin-left: auto;
+	margin-bottom: auto;
+	position: fixed;
+	top: 175px;
+	left: 850px;
+	z-index: 1030;
+}
+.messageBox{
+    float: left;

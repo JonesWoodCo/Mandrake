@@ -41,11 +41,11 @@
 			<li class= "homeLink mainNav slash">\</li>
                         <li class="contactLink mainNav messageSocialButton"><a href="#">CONTACT</a></li>
 			
-			<li class="messageSocialButton buttonanimator mainNav"><a href=""><img class="socialButtons" src="mail.png"></a></li>
-			<li class="twitter buttonanimator mainNav"><a href="https://twitter.com/DesignMandrake"><img class="socialButtons" src="twitter.png"></a></li>
-			<li class="linkedin buttonanimator mainNav"><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><img class="socialButtons" src="linkedin.png"></a></li>
-			<li class="instagram buttonanimator mainNav"><a href="http://instagram.com/topherjonesy/"><img class="socialButtons" src="instagram.png"></a></li>
-			<li class="facebook buttonanimator mainNav"><a href="http://www.facebook.com/jonescommachris"><img class="socialButtons" src="facebook.png"></a></li>  
+			<li class="message buttonanimator mainNav"><a href="http://www.facebook.com"><img class="socialButtons" src="mail.png"></a></li>
+			<li class="twitter buttonanimator mainNav"><a href="http://www.facebook.com"><img class="socialButtons" src="twitter.png"></a></li>
+			<li class="linkedin buttonanimator mainNav"><a href="http://www.facebook.com"><img class="socialButtons" src="linkedin.png"></a></li>
+			<li class="instagram buttonanimator mainNav"><a href="http://www.facebook.com"><img class="socialButtons" src="instagram.png"></a></li>
+			<li class="facebook buttonanimator mainNav"><a href="http://www.facebook.com"><img class="socialButtons" src="facebook.png"></a></li>  
 		</ul>
 		
 	</nav>
@@ -55,7 +55,6 @@
 
 <section id="about">
 	
-		
 	
 	
 	
@@ -64,34 +63,34 @@
 	
 	
 	
-	<div class="parallax">
-  <div class="parallax__group">
-    <div class="parallax__layer parallax__layer--back">
-       <img class="parallaxPhoto img1" style="height: 1300px; float: left;" src="meFlat.png">
-    </div>
-    <div class="parallax__layer parallax__layer--base">
-       <p style=" font-size: 1.23em; color: #1f1f1f;">Hi! I'm Chris. Mandrake is an educational venture that I am embarking apon to learn web design and developement. Here you can find some of the projects that I've worked on. If you want to give me another project to work on, send me a message! </p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--<img style="height: 700px; float: left;" src="meFlat.png">
+	<p style=" font-size: 1.23em; color: #1f1f1f;">Hi! I'm Chris. Mandrake is an educational venture that I am embarking apon to learn web design and developement. Here you can find some of the projects that I've worked on. If you want to give me another project to work on, send me a message! </p>
 
-    </div>
-  </div>
-  <div class="parallax__group">
-    <img class="parallaxPhoto img2" style="height: 400px; float: left;" src="meFlat.png">
-  </div>
-</div>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+-->
+</section>
 
+
+<section id="work">
+	
+	work section
+	
+</section>
+
+<section id="news">
+	
+	news section
+	
+	
 </section>
 
 
@@ -121,9 +120,8 @@
 
 
 
-<!--voodoo magic (javascript) below-->
 
-<!--attaches the nav bar to the top upon scroll-->
+<!--voodoo magic below-->
 <script>
    $(document).ready(function(){
 	   $(window).bind('scroll', function() {
@@ -137,15 +135,21 @@
 		});
 	});
 </script>
-
+<script type="text/javascript" src="skrollr.min.js"></script>
+	<script type="text/javascript">
+	skrollr.init({
+		smoothScrolling: false,
+		mobileDeceleration: 0.004
+	});
+	</script>
+</body>
+</html>
 
 <!--
 =======================================================
 parallax scrolling tutorial
 
-http://davidwalsh.name/parallax
+https://github.com/Prinzhorn/skrollr
 
 =======================================================
 -->
-</body>
-</html>

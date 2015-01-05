@@ -1,51 +1,9 @@
-
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  transform: translateZ(-5px) scale(2);
-}
-
-.parallax__group {
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
-}
-.parallaxPhoto{
-	margin-left: 400px;
-	margin-right: 400px;
-	position: absolute;
-	
-}
-.img1{
-	z-index: 800;
-}
-
-.img2{
-	z-index: 799;
-}
-
-
 /* ====================================================================================
 Overall classes
 =====================================================================================*/
 * {
 	margin: 0;
 	padding: 0;
-	
 }
 
 .fixed {
@@ -56,18 +14,15 @@ Overall classes
 }
 
 body {
-	background-image: url();
-	background-position: top;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	color: #000000;
-	font-family: 'Raleway', sans-serif; 
-	font-size: 18px;
-	overflow-y: scroll;
-	overflow-x: hidden;
-	perspective: 1px;
-	transform-style: preserve-3d;
-	overflow: -moz-scrollbars-none;
+    background-image: url();
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #000000;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 18px;
+    
+    
 }
 a {
 	text-decoration: none;
@@ -76,6 +31,9 @@ a:hover{
     color: #f95248;
     
 }
+
+
+
 
 
 
@@ -105,8 +63,6 @@ Sections / Top
 
 .socialButtons{
 	height: 22px;
-	margin-left: 3px;
-	margin-right: 3px;
 }
 
 
@@ -147,11 +103,11 @@ Sections /  About
 
 #about {
 	margin-top: 0px;
-	padding-top: 0px;
+	padding-top: 20px;
 	background: #70DBFF;
-        height: 100vh;
+        height: 600px;
 	
-	
+	padding-right: 200px;
 }
 
 

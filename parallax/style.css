@@ -198,8 +198,8 @@ body {
     z-index: 3; /* slide over group 7 */
 }
 #group7 .parallax__layer--base {
-  /* background-image: url(meFlatPurple.png);
-     background-repeat: no-repeat;*/
+    background-image: url(EastCoastTrail.jpg);
+    background-repeat: no-repeat; 
 }
 
 

@@ -272,8 +272,6 @@ ul{
 .mainNav {
 	display: inline-block;
 	padding-top: 4px;
-	
-	
 	padding-right: 5px;
 }
 
@@ -308,3 +306,6 @@ nav li a {
 }*/
 .messageBox{
     float: left;
+    padding-right: 200px;
+    padding-left: 200px;
+}

@@ -4,6 +4,10 @@ $(document).ready(function(){
 
 
   $('.messageSocialButton').click(function() {
-    $('#contact').toggle();
+    $('#contact').slideDown('slow'); {
+    }
+    $('.messageSocialButton').click(function() {
+                  $('#contact').slideUp('slow');
+    })
   });
 });

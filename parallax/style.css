@@ -113,8 +113,8 @@ body {
 }
 #group1 .parallax__layer--base {
     background-color: #ffffff;
-   /* background-image: url(meFlat.png);
-     background-repeat: no-repeat;*/
+    background-image: url('EastCoastTrail.jpg');
+    
 }
 
 
@@ -148,6 +148,7 @@ body {
     /*background-image: url(meFlatYellow.png);
     background-repeat: no-repeat;*/
 }
+
 
 
 

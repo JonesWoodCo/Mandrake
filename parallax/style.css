@@ -1,5 +1,6 @@
-/* Parallax base styles
---------------------------------------------- */
+/* //////////////////////////////////////////////////////////////////////////////////
+ /////////////////////        Parallax base styles     /////////////////////////////
+ /////////////////////////////////////////////////////////////////////////////////*/
 
 .parallax {
     height: 500px; /* fallback for older browsers */
@@ -36,7 +37,7 @@
 .parallax__layer--base {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    z-index: 4;
+    z-index: 4; /*changed from 2*/
 }
 
 .parallax__layer--back {
@@ -48,7 +49,7 @@
 .parallax__layer--deep {
     -webkit-transform: translateZ(-600px) scale(3);
     transform: translateZ(-600px) scale(3);
-    z-index: 2;
+    z-index: 2; /*changed from 4*/
 }
 
 
@@ -108,7 +109,7 @@ body {
  ==============================================*/
 
 #group1 {
-    z-index: 5; /* slide over group 2 */
+    z-index: 5; /* used to slide over group 2 */
 }
 #group1 .parallax__layer--base {
     background-color: #ffffff;
@@ -126,6 +127,7 @@ body {
 
 #group2 {
     z-index: 3; /* slide under groups 1 and 3 */
+    background-color: #33ccff;
 }
 #group2 .parallax__layer--back {
    /* background-image: url(meFlatRed.png);
@@ -140,6 +142,7 @@ body {
  ==============================================*/
 #group3 {
     z-index: 4; /* slide over group 2 and 4 */
+    background-color: #999999;
 }
 #group3 .parallax__layer--base {
     /*background-image: url(meFlatYellow.png);
@@ -154,6 +157,7 @@ body {
  ==============================================*/
 #group4 {
     z-index: 2; /* slide under group 3 and 5 */
+    background-color: #456765;
 }
 #group4 .parallax__layer--deep {
   /* background-image: url(meFlatPink.png);
@@ -168,6 +172,7 @@ body {
  ==============================================*/
 #group5 {
     z-index: 3; /* slide over group 4 and 6 */
+    background-color: green;
 }
 #group5 .parallax__layer--base {
  /* background-image: url(meFlatGreen.png);
@@ -182,6 +187,7 @@ body {
  ==============================================*/
 #group6 {
     z-index: 2; /* slide under group 5 and 7 */
+    background-color: #FF0066;
 }
 #group6 .parallax__layer--back {
    /*background-image: url(meFlatBlue.png);
@@ -196,6 +202,7 @@ body {
  ==============================================*/
 #group7 {
     z-index: 3; /* slide over group 7 */
+    background-color: #FFFF00;
 }
 #group7 .parallax__layer--base {
     background-image: url(EastCoastTrail.jpg);

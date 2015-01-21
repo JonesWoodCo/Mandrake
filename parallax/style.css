@@ -296,18 +296,7 @@ nav li a {
         color: #bf5529;
 	
 }
-/*#x{
-	color: #1f1f1f;
-	background-color: transparent;
-	font-size: 30px;
-	color: #1f1f1f;
-	margin-left: auto;
-	margin-bottom: auto;
-	position: fixed;
-	top: 175px;
-	left: 850px;
-	z-index: 1030;
-}*/
+
 .messageBox{
     float: left;
     padding-right: 200px;

@@ -54,17 +54,16 @@ a:hover{
 	opacity: 0.5;
 	width: 20%;
 }
-#fore-fore-foreground {/*logo*/
+#fore-fore-foreground {/* maybe not waste this on the logo????*/
 	text-align: center;
-	margin-top: 720px;
-	margin-left: 200px;
-	width: 40%;
+	margin-top: 60px;
+	
+	
 	bottom: 0;
 	left: 0;
 	right: 0;
 }
 #fore-fore-foreground>img{
-	width: 95%;
 	text-align: center;
 	
 }

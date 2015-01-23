@@ -7,6 +7,7 @@
      
       <!--font-->
      <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
         
     <title>Mandrake</title>
     
@@ -115,54 +116,30 @@
     </div>
     
     
+    
     <!--DOTS-->
     <div id="fore-fore-foreground"  class="mouse-bg">
         
     </div>
     
-</section>
-
-
-
-
-
-
-
-
-<section class="content">
-
-    <!--
-    
-    <div style="margin-top: 500px;" class="about"> 
-    <div style="background-color: #f9ecd9; padding-bottom: 30px;">
-	<p style=" font-size: 2.5em; color: #1f1f1f;  margin-right: 200px; margin-left: 200px;">Hi! I'm Chris. Mandrake is an educational venture that I am embarking apon to learn web design and developement. Here you can find some of the projects that I've worked on. If you want to give me another project to work on, send me a message! </p>
-	</div>
+    <!--about paragraph -->
+    <div id="about-parallax"  class="mouse-bg">
+	<p style=" font-family: 'Arvo', serif; font-size: 2.5em; color: #f9ecd9;  margin-top: 950px; margin-right: 200px; margin-left: 200px;">Hi! I'm Chris. Mandrake is an educational venture that I am embarking apon to learn web design and developement. Here you can find some of the projects that I've worked on. If you want to give me another project to work on, send me a message! </p>
     </div>
-    
-    
-    
-    <div class="work">
-    <div style="background-color: #f9ecd9; padding-bottom: 30px;">
-	<div style='width:100%; height: 30px; background-color: #6e3f02;'>
-	</div>
-	<p style=" font-size: 2.5em; color: #1f1f1f;  margin-right: 200px; margin-left: 200px;">THIS IS GOING TO BE THE WORK SECTION... PARALLAX HERE TOO? :) </p>
-	</div>
-    </div>-->
-    
-    
-    
-    
 </section>
+
+
 
 
 <script>
 $(document).ready(function() {
 				$('#background').mouseParallax({ moveFactor: 9 });
 				$('#foreground').mouseParallax({ moveFactor: 5 });
-				$('#fore-foreground').mouseParallax({ moveFactor: 1 });
+				$('#fore-foreground').mouseParallax({ moveFactor: 0 });
 				$('#fore-fore-foreground').mouseParallax({ moveFactor: 12 });
+				$('#about-parallax').mouseParallax({ moveFactor: 5 });
 				
-				$('body').height(10000);
+				$('body').height(10050);
 			});
 </script>
 <script type="text/javascript">

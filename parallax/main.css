@@ -22,6 +22,28 @@ a:hover{
     color: #f95248;
     
 }
+
+
+
+
+
+
+
+
+.land-sky{
+	position: fixed;
+	left: -20px;
+	right: -20px;
+	top: 10px;
+	height: 500px;
+	width: 120%;
+}
+.land-sky>img{
+	width: 120%;
+	height: 500px;
+	
+	
+}
 #background{
 	margin-top: 30px;
 	left: -40px;

@@ -10,16 +10,16 @@ body{
 	background-color: #6ca4bf;
 }
 body, html {
-height: 100%;
-margin: 0px;
-padding: 0px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
 
 }
 a {
 	text-decoration: none;
 }
 a:hover{
-    color: #f95248;
+	color: #f95248;
     
 }
 #background{
@@ -40,7 +40,7 @@ a:hover{
 	
 }
 #foreground>img{
-	width: 70%;
+	width: 50%;
 	margin-left: 15%;
 	margin-right: 15%
 	
@@ -90,13 +90,13 @@ a:hover{
 }
 
 .buttonanimator{
-    opacity: 1.0;
-    float: right;
-   margin-left: 10px;
+	opacity: 1.0;
+	float: right;
+	margin-left: 10px;
     
 }
 .buttonanimator:hover{
-    opacity: 0.5;
+	opacity: 0.5;
 }
 
 .socialButtons{
@@ -143,6 +143,6 @@ nav li a {
 	
 }
 .messageBox{
-    float: left;
-    padding-right: 200px;
-    padding-left: 200px;
+	float: left;
+	padding-right: 240px;
+	padding-left: 240px;

@@ -14,6 +14,7 @@
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <link href="mouseparallax.css" rel="stylesheet" type="text/css">
     <link href=main.css rel=stylesheet>
+    <link href=message.css rel=stylesheet>
         
     <!--javascript files-->
     <script src="jquery.js"></script>
@@ -59,7 +60,34 @@
             
 	    <div class="messageBox">
 		<p>Send me a message!</p>
-		<!--steal form from haley's site.-->
+		
+		
+		<div class="container">
+								
+								<form method="post" action="index.php">
+									<div class="row uniform">
+										<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+									</div>
+									<div class="row uniform">
+										<div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+									</div>
+									<div class="row uniform">
+										<div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+									</div>
+									<div class="row uniform">
+										<div class="12u">
+											<ul style=" list-style: none;" class="actions">
+												<li><input style="display: inline; width: 150px; border: 0px;" type="submit" class="sendMessage" value="Send Message" /></li>
+												
+												
+											</ul>
+										</div>
+									</div>
+								</form>
+							</div>
+		
+		
             </div>
         </div>
 </section>

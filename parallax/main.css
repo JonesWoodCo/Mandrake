@@ -28,7 +28,12 @@ a:hover{
 
 
 
-
+.parallax-content{
+	position: fixed;
+	z-index: 50;
+	padding-left: 200px;
+	padding-right: 200px;
+}
 
 .land-sky{
 	position: fixed;

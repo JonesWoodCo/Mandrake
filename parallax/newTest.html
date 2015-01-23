@@ -67,14 +67,17 @@
     
 <section class="content">
     <div id="background" class="mouse-bg">
-        <img src="img\sauronLampPost.png">
+        <img src="img\trees.png">
     </div>
+    
     <div id="foreground" class="mouse-bg">
-        <img src="img\harryMe2.png">
+        <img src="img\harryMe3.png">
     </div>
+    
     <div id="fore-foreground"  class="mouse-bg">
         
     </div>
+    
     <div id="fore-fore-foreground"  class="mouse-bg"><!--maybe dont waste this fore fore foreground on the logo? make the logo static-->
         
     </div>
@@ -89,7 +92,7 @@
     
     
     <div class="about"><!--about text here -->
-    <div style="margin-top: 830px; background-color: #f9ecd9; padding-bottom: 30px;">
+    <div style="margin-top: 600px; background-color: #f9ecd9; padding-bottom: 30px;">
 	<div style='width:100%; height: 30px; background-color: #f95248;'>
 	</div>
 	<p style=" font-size: 2.5em; color: #1f1f1f;  margin-right: 200px; margin-left: 200px;">Hi! I'm Chris. Mandrake is an educational venture that I am embarking apon to learn web design and developement. Here you can find some of the projects that I've worked on. If you want to give me another project to work on, send me a message! </p>
@@ -129,10 +132,10 @@
 
 <script>
 $(document).ready(function() {
-				$('#background').mouseParallax({ moveFactor: -3 });
-				$('#foreground').mouseParallax({ moveFactor: 2 });
-				$('#fore-foreground').mouseParallax({ moveFactor: 4 });
-				$('#fore-fore-foreground').mouseParallax({ moveFactor: 6 });
+				$('#background').mouseParallax({ moveFactor: -1 });
+				$('#foreground').mouseParallax({ moveFactor: 4 });
+				$('#fore-foreground').mouseParallax({ moveFactor: 8 });
+				$('#fore-fore-foreground').mouseParallax({ moveFactor: 12 });
 				
 				$('body').height(2000);
 			});

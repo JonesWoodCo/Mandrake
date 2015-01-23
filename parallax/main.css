@@ -50,11 +50,11 @@ a:hover{
 	
 }
 #background{
-	margin-top: 30px;
+	margin-top: 10px;
 	left: -40px;
 }
 #background>img {/*trees*/
-	height: 1000px;
+	height: 500px;
 	
 }
 #foreground {/*Me*/

@@ -54,11 +54,11 @@ a:hover{
 }
 #background{
 	margin-top: 10px;
-	text-align: center;
+	
 	width: 100%;
 }
-#background>img {/*trees*/
-	height: 500px;
+#background>img {/*tIE FIGHTER*/
+	height: 700px;
 	
 }
 #foreground {/*HPotter*/

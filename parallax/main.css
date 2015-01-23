@@ -55,25 +55,41 @@ a:hover{
 #background{
 	margin-top: 10px;
 	text-align: center;
+	width: 100%;
 }
 #background>img {/*trees*/
 	height: 500px;
 	
 }
-#foreground {/*Me*/
-	
+#foreground {/*HP AND C3P0*/
+	width: 100%;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	margin-top: 190px;
+	margin-top: 100px;
 	margin-left: 50px;
+	text-align: center;
 	
 }
 #foreground>img{
 	width: 1000px;
 	margin-left: 15%;
 	margin-right: 15%;
+	
+	
+}
+#fore-foreground {/* logo*/
+	bottom: 0;
+	left: 0;
+	right: 0;
 	margin-top: 100px;
+	padding-right: 150px;
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+}
+#fore-foreground>img{
+	width: 670px;
 	
 }
 #fore-fore-foreground { /*dots*/
@@ -83,22 +99,13 @@ a:hover{
 	bottom: 0;
 	left: 0;
 	right: 0;
+	text-align: center;
 }
 #fore-fore-foreground>img{
 	opacity: 0.5;
 	width: 200px;
 }
-#fore-foreground {/* sauron*/
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin-top: 100px;
-	margin-left: 0px;
-}
-#fore-foreground>img{
-	width: 670px;
-	
-}
+
 /* //////////////////////////////////////////////////////////////////////////////////
  /////////////////////////////     SECTION - TOP    ////////////////////////////////
  /////////////////////////////////////////////////////////////////////////////////*/

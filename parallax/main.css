@@ -61,18 +61,18 @@ a:hover{
 	height: 500px;
 	
 }
-#foreground {/*HP AND C3P0*/
+#foreground {/*HPotter*/
 	width: 100%;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	margin-top: 100px;
-	margin-left: 50px;
+	margin-top: 290px;
+	margin-left: 250px;
 	text-align: center;
 	
 }
 #foreground>img{
-	width: 1000px;
+	width: 700px;
 	margin-left: 15%;
 	margin-right: 15%;
 	

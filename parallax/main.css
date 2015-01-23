@@ -26,7 +26,10 @@ a:hover{
 
 
 
-
+.content{
+	position: fixed;
+	z-index: 51;
+}
 
 .parallax-content{
 	position: fixed;
@@ -152,7 +155,7 @@ ul{
 }
 
 nav li a {
-	color: #ffffff;
+	color: #f9ecd9;
 	font-family: 'Raleway', sans-serif;
 	font-size: 0.7em;
 	

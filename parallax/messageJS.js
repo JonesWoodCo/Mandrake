@@ -1,10 +1,10 @@
 $(document).ready(function(){
-         $('#contact').hide();
+         $('.messageBox').hide();
          
 
 
   $('.messageSocialButton').click(function() {
-    $('#contact').slideToggle('slow'); 
+    $('.messageBox').slideToggle('slow'); 
     });
     
   });

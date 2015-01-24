@@ -19,7 +19,7 @@ a {
 	text-decoration: none;
 }
 a:hover{
-	color: #f95248;
+	opacity: 0.5;
     
 }
 
@@ -111,7 +111,7 @@ a:hover{
  /////////////////////////////////////////////////////////////////////////////////*/
 
 #top {	
-	background-color: #ffffff;
+	
 	position: absolute;
 	z-index: 9999;
 	width: 100%;

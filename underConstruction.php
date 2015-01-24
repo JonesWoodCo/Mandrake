@@ -52,9 +52,9 @@
 		<ul>
 			<li class= "homeLink mainNav"><a href="http://www.mandrakedesign.com">HOME</a></li>
 			<li class= "homeLink mainNav slash">\</li>
-			<li class="aboutLink mainNav"><a class="aboutLink" href="underConstruction.html">ABOUT</a></li>
+			<li class="aboutLink mainNav"><a class="aboutLink" href="underConstruction.php">ABOUT</a></li>
 			<li class= "homeLink mainNav slash">\</li>
-			<li class="workLink mainNav"><a href="underConstruction.html">WORK</a></li>
+			<li class="workLink mainNav"><a href="underConstruction.php">WORK</a></li>
 			<li class= "homeLink mainNav slash">\</li>
                         <li class="contactLink mainNav messageSocialButton"><a href="#">CONTACT</a></li>
 			

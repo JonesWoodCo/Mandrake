@@ -10,7 +10,7 @@
 		$email="Name: " . $name . "\n". "\n" . "Email: " . $sender . "\n". "\n" . "Subject: " . $subject . "\n". "\n" . "Message: " . $message;
 		mail("cjones@sycamoreleaf.com", $subject, $email);
 	}
-?>-->
+?>
 <!doctype html>
 <html>
 <head>

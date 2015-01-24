@@ -60,7 +60,7 @@
 			<li class="twitter buttonanimator mainNav"><a href="https://twitter.com/DesignMandrake"><img class="socialButtons" src="img/twitter.png"></a></li>
 			<li class="linkedin buttonanimator mainNav"><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><img class="socialButtons" src="img/linkedin.png"></a></li>
 			<li class="instagram buttonanimator mainNav"><a href="http://instagram.com/topherjonesy/"><img class="socialButtons" src="img/instagram.png"></a></li>
-			<li class="facebook buttonanimator mainNav"><a href="http://www.facebook.com/jonescommachris"><img class="socialButtons" src="img\facebook.png"></a></li>  
+			<li class="facebook buttonanimator mainNav"><a href="http://www.facebook.com/jonescommachris"><img class="socialButtons" src="img/facebook.png"></a></li>  
 		</ul>
 		
 	</nav>

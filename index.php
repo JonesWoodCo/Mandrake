@@ -105,7 +105,7 @@
     
     
     <div class='land-sky'>
-	<img src="img\landsky.png">
+	<img src="img/landsky.png">
     </div>
     
     
@@ -113,7 +113,7 @@
     
     <!--TIE FIGHTER-->
     <div id="background" class="mouse-bg">
-        <img src="img\tieFighter.png">
+        <img src="img/tieFighter.png">
     </div>
     
     

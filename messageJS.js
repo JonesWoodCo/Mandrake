@@ -1,9 +1,12 @@
 $(document).ready(function(){
-         $('#contact').hide();
-         $('.hide-me').hide();
-         
+         $('.messageBox').hide();
 
-  $('.messageSocialButton').click(function() {
-    $('#contact').toggle();
+  $('.message-x').click(function() {
+    $('.messageBox').slideToggle('slow'); 
+    });
+  
+    $('.messageSocialButton').click(function() {
+    $('.messageBox').slideToggle('slow'); 
+    });
+    
   });
-});

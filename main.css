@@ -1,49 +1,123 @@
-
-/*////////////////////////////////////////////////////////
-//////////////////   OVERALL - CLASSES   /////////////////
-////////////////////////////////////////////////////////*/
-
-* {
-	margin: 0;
-	padding: 0;
+.mouse-bg {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	position: fixed;
+	z-index: -1;
 }
-
-.fixed {
-	position: fixed; 
-	top: 0; 
-	height: 30px; 
-	z-index: 1;
+body{
+	background-color: #466576;
 }
+body, html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
 
-body {
-    background-image: url();
-    background-position: top;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    color: #000000;
-    font-family: 'Raleway', sans-serif; 
-    font-size: 18px;
-    
-    
 }
 a {
 	text-decoration: none;
 }
 a:hover{
-    color: #f95248;
+	opacity: 0.5;
     
 }
 
 
 
 
-/*///////////////////////////////////////////////////////
-//////////////   SECTION - WORK   ///////////////////////
-///////////////////////////////////////////////////////*/
+.content{
+	position: fixed;
+	z-index: 51;
+}
+
+.parallax-content{
+	position: fixed;
+	z-index: 50;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.land-sky{
+	position: fixed;
+	left: -20px;
+	right: -20px;
+	top: 10px;
+	height: 500px;
+	width: 120%;
+}
+.land-sky>img{
+	width: 120%;
+	height: 500px;
+	
+	
+}
+#background{
+	margin-top: 150px;
+	margin-left: -150px;
+	width: 100%;
+}
+#background>img {/*tIE FIGHTER*/
+	height: 700px;
+	
+}
+#foreground {/*HPotter*/
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-top: 290px;
+	margin-left: 290px;
+	text-align: center;
+	
+}
+#foreground>img{
+	width: 700px;
+	margin-left: 15%;
+	margin-right: 15%;
+	
+	
+}
+#fore-foreground {/* logo*/
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-top: 100px;
+	padding-right: 150px;
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+}
+#fore-foreground>img{
+	width: 670px;
+	
+}
+#fore-fore-foreground { /*dots*/
+	width: 150%;
+	background-image: url('img/testParallaxLayer.png');
+	background-repeat: repeat;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+#fore-fore-foreground>img{
+	opacity: 0.5;
+	width: 200px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////
+ /////////////////////////////     SECTION - TOP    ////////////////////////////////
+ /////////////////////////////////////////////////////////////////////////////////*/
 
 #top {	
-        height: 130px;
-	background-color: #fffffff;
+	
+	position: absolute;
+	z-index: 9999;
+	width: 100%;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 #top p {
@@ -52,23 +126,25 @@ a:hover{
 }
 
 .buttonanimator{
-    opacity: 1.0;
-    float: right;
-   margin-left: 10px;
+	opacity: 1.0;
+	float: right;
+	margin-left: 10px;
     
 }
 .buttonanimator:hover{
-    opacity: 0.5;
+	opacity: 0.5;
 }
 
 .socialButtons{
 	height: 22px;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 
 
 nav {
-	position: absolute;
-	top: 100px;
+	position: fixed;
+	top: 0px;
 	width: 100%;
 	height: 30px;
 	background: #000000;
@@ -77,17 +153,16 @@ nav {
 ul{
 	margin-right: 200px;
 	margin-left: 200px;
+	margin-top: 0px;
 }
 .mainNav {
 	display: inline-block;
 	padding-top: 4px;
-	padding-bottom: 4px;
-	
 	padding-right: 5px;
 }
 
 nav li a {
-	color: #ffffff;
+	color: #f9ecd9;
 	font-family: 'Raleway', sans-serif;
 	font-size: 0.7em;
 	
@@ -96,143 +171,23 @@ nav li a {
 	font-size: 0.7em;
 }
 
-
-/*//////////////////////////////////////////////////
-/////////////   SECTION - ABOUT   //////////////////
-//////////////////////////////////////////////////*/
-
-#about {
-	margin-top: 0px;
-	padding-top: 20px;
-	background: #70DBFF;
-        height: 600px;
-	
-	padding-right: 200px;
-}
-
-
-/*//////////////////////////////////////////////////
-////////////   SECTION - WORK   ////////////////////
-//////////////////////////////////////////////////*/
-
-#news {
-	background: #F5F5F5;
-        height: 600px;
-	width: 100%;
-	
-}
-.article{
-	background-color: #e6e6e6;
-	height: 200px;
-	width: 380px;
-	float: left;
-	margin: 5px;
-	padding: 0px;
-	border: 0px;
-}
-
-
-}
-
-/*//////////////////////////////////////////////////
-////////////   SECTION - WORK   ////////////////////
-//////////////////////////////////////////////////*/
-
-#work {
-	background: #ffffff;
-        height: 600px;
-
-}
-
-
-/*//////////////////////////////////////////////////
-/////////////////   CONTACT  ///////////////////////
-//////////////////////////////////////////////////*/
-
 #contact {
-	position: fixed;
-	top: 175px;
-	left: 500px;
-	height: 475px;
-	width: 375px;
-	background: #ffffff;
+	width: 100%;
+	height: 400px;
+	background: #1f1f1f;
         color: #bf5529;
-        box-shadow: 0px 10px 20px #000000;
 	
-}
-#x{
-	color: #1f1f1f;
-	background-color: transparent;
-	font-size: 30px;
-	color: #1f1f1f;
-	margin-left: auto;
-	margin-bottom: auto;
-	position: fixed;
-	top: 175px;
-	left: 850px;
-	z-index: 1030;
 }
 .messageBox{
-    float: left;
-
-
-
-
-
-/*//////////////////////////////////////////////////
-//////////////  SECTION - BOTTOM  //////////////////
-//////////////////////////////////////////////////*/
-#bottom{
-	color: #808080;
-	height: 40px;
-	font-size: 0.75em;
-	margin-bottom: 20px;
+	background-color: #1f1f1f;
 	text-align: center;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
 	padding-top: 20px;
-}
-
-
-
-
-
-/*//////////////////////////////////////////////////
-/////////////////   MOBILE   ///////////////////////
-//////////////////////////////////////////////////*/
-
-@media only screen and (max-width: 520px) {
-
-	nav li {
-		padding: 0px;
-	}
-
-	nav li a {
-		font-size: 14px;
-	}
-
-}
-
-
-
-/*//////////////////////////////////////////////////
-////////   PARALLAX SCROLLING STUFF   //////////////
-//////////////////////////////////////////////////*/
-
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  transform: translateZ(-1px);
+	margin-top: 241px;
+	margin-left: 280px;
+	margin-right: 280px;
+	border: hidden;
+	border-radius: 25px
 }

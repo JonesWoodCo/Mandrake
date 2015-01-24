@@ -1,9 +1,11 @@
 $(document).ready(function(){
          $('.messageBox').hide();
-         
 
-
-  $('.messageSocialButton').click(function() {
+  $('.message-x').click(function() {
+    $('.messageBox').slideToggle('slow'); 
+    });
+  
+    $('.messageSocialButton').click(function() {
     $('.messageBox').slideToggle('slow'); 
     });
     

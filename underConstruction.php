@@ -172,3 +172,9 @@ $(document).ready(function() {
 
 </body>
 </html>
+<!--mobile
+http://matthew.wagerfield.com/parallax/
+https://github.com/wagerfield/parallax
+http://www.html5rocks.com/en/mobile/mobifying/
+http://stackoverflow.com/questions/11895620/how-to-create-a-completely-device-compatible-website
+-->

@@ -31,6 +31,13 @@
     <link href=main.css rel=stylesheet>
     <link href=message.css rel=stylesheet>
         
+    <!--mobile and tablet browsing stylesheets   //////un comment after creation of CSS stylesheets///////
+    <link rel="stylesheet" media="handheld, only screen and (max-device-width: 320px)" href="phone.css"> /////////////////////// create stylesheet ////////////
+    <link rel="stylesheet"  media="only screen and (min-width: 641px) and (max-width: 800px)" href="tablet.css"> /////////////////////// create stylesheet ////////////
+     <link rel="apple-touch-icon" href="#" /> ////////////////////////////////////////create an icon//////////////////////////////////////////////
+    <link rel="apple-touch-icon-precomposed" href="#" />  ////////////////////////////////////////create an icon//////////////////////////////////////////////-->
+    
+        
     <!--javascript files-->
     <script src="jquery.js"></script>
     <script type='text/javascript' src='jquery-scrollto.js'></script>

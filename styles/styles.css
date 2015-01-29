@@ -81,12 +81,12 @@ img {
 }
 
 .buttonanimator{
-	opacity: 1.0;
+	
 	float: right;
 	margin-left: 10px;
     
 }
-.buttonanimator:hover{
+.mainNav:hover{
 	opacity: 0.5;
 }
 
@@ -111,6 +111,7 @@ ul{
 	margin-top: 0px;
 }
 .mainNav {
+	opacity: 1.0;
 	display: inline-block;
 	padding-top: 4px;
 	padding-right: 5px;

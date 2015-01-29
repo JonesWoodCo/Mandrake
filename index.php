@@ -11,57 +11,51 @@
 		mail("cjones@sycamoreleaf.com", $subject, $email);
 	}
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-    
-    <!--meta tags-->
-    <meta charset="utf-8">
-    <!-- create a stylesheet and then un comment this line--><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-     
-      <!--font-->
-     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+
+  <meta charset="utf-8">
+
+  
+    <!--font-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
         
     <title>Mandrake Design</title>
+
+  <!-- Behavioral Meta Data -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- Styles -->
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+  <link href="message.css" rel="stylesheet">
     
-    <!--css files-->
-    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-    <link href="mouseparallax.css" rel="stylesheet" type="text/css">
-    <link href=main.css rel=stylesheet>
-    <link href=message.css rel=stylesheet>
-        
-    <!--mobile and tablet browsing stylesheets   //////un comment after creation of CSS stylesheets///////
-    <link rel="stylesheet" media="handheld, only screen and (max-device-width: 320px)" href="phone.css"> /////////////////////// create stylesheet ////////////
-    <link rel="stylesheet"  media="only screen and (min-width: 641px) and (max-width: 800px)" href="tablet.css"> /////////////////////// create stylesheet ////////////
-     <link rel="apple-touch-icon" href="#" /> ////////////////////////////////////////create an icon//////////////////////////////////////////////
-    <link rel="apple-touch-icon-precomposed" href="#" />  ////////////////////////////////////////create an icon//////////////////////////////////////////////-->
-    
-        
-    <!--javascript files-->
+  <!-- JAVASCRIPT -->
+  
     <script src="jquery.js"></script>
     <script type='text/javascript' src='jquery-scrollto.js'></script>
     <script src="jquery-ui.js"></script>
     <script src="jquery-scrollto.js"></script>
     <script src="messageJS.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="mouse.parallax.js"></script>
     
+    <!--favicon-->
     <link rel="icon" type="image/png" href="img/mandrakeFavicon.png">
-    
-</head>
 
+</head>
 <body>
-    <section id="top">
+  
+  
+  <section id="top">
 	
 	<nav>
 		<ul>
 			<li class= "homeLink mainNav"><a href="http://www.mandrakedesign.com">HOME</a></li>
-			<li class= "homeLink mainNav slash">\</li>
 			<li class="aboutLink mainNav"><a class="aboutLink" href="underConstruction.php">ABOUT</a></li>
-			<li class= "homeLink mainNav slash">\</li>
 			<li class="workLink mainNav"><a href="underConstruction.php">WORK</a></li>
-			<li class= "homeLink mainNav slash">\</li>
                         <li class="contactLink mainNav messageSocialButton"><a href="#">CONTACT</a></li>
 			
 			<li class="messageSocialButton buttonanimator mainNav"><a href="#"><img class="socialButtons" src="img/mail.png"></a></li>
@@ -72,10 +66,7 @@
 		</ul>
 		
 	</nav>
-        
-	    
-	
-	    <div class="messageBox">
+        <div class="messageBox">
 		<div style="font-family: 'Arvo', serif; font-size: 1.5em; color: #f9ecd9; float: left;">Send me a message!</a>
 		</div>
 		<div class='message-x'><a href='#' style="font-family: 'Arvo', serif; font-size: 2.0em; color: #f9ecd9; float: right;">X</a>
@@ -102,80 +93,39 @@
 		    </form>
 		</div>
             </div>
-        </div>
-</section>
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class='land-sky'>
-	<img src="img/landsky.png">
-    </div>
-    
-    
-<section class="parallax-content">
-    
-    <!--TIE FIGHTER-->
-    <div id="background" class="mouse-bg">
-        <img src="img/tieFighter.png">
-    </div>
-    
-    
-    <!--HP AND C3P0-->
-    <div id="foreground" class="mouse-bg">
-        <img src="img/harryMe3.png">
-    </div>
-    
-    
-    <!--LOGO-->
-    <div id="fore-foreground"  class="mouse-bg">
-        <img style='margin-top: 10px; margin-bottom: 10px;' src='img/mandrakeLogo2.png'>
-    </div>
-    
-    
-    
-    <!--DOTS-->
-    <div id="fore-fore-foreground"  class="mouse-bg">
         
-    </div>
-    
-    <!--about paragraph -->
-    <div id="about-parallax"  class="mouse-bg">
-	<p style="text-align: center; text-shadow: 5px 5px #3b3b3a; font-family: 'Arvo', serif; font-size: 2.5em; color: #f9ecd9;  margin-top: 950px; margin-right: 200px; margin-left: 200px;">Hi! I'm Chris. Mandrake is an educational venture that I am embarking upon to learn web design and developement. Here you can find some of the projects that I've worked on. If you want to give me another project to work on, send me a message! </p>
-    </div>
+	
 </section>
+  
 
 
+  <div id="container" class="container">
+    
+    <ul id="scene" class="scene border fill">
+      <li class="layer expand-width" data-depth="1.00"><img class="backStars" src="img/testParallaxLayer.png"></li>
+      <li class="layer expand-width" data-depth="0.80"><img class="hpotter" src="img/harryMe3.png"></li>
+      <li class="layer expand-width" data-depth="0.60"></li>
+      <li class="layer expand-width" data-depth="0.40"><img class="tie-fighter" src="img/tieFighter.png"></li>
+      <li class="layer expand-width" data-depth="0.20"><img class="logo" src='img/mandrakeLogo2.png'></li>
+      <li class="layer expand-width" data-depth="0.00"><p class="aboutPara" style="text-align: center; text-shadow: 5px 5px #3b3b3a; font-family: 'Arvo', serif; font-size: 2.5em; color: #f9ecd9;">Hi! I'm Chris. Mandrake is an educational venture that I am embarking upon to learn web design and developement. Here you can find some of the projects that I've worked on. If you want to give me another project to work on, send me a message! </p></li>
+      
+      
+      
+    </ul>
+  </div>
+  
+  
 
-<script>
-$(document).ready(function() {
-				$('#background').mouseParallax({ moveFactor: 9 });
-				$('#foreground').mouseParallax({ moveFactor: 5 });
-				$('#fore-foreground').mouseParallax({ moveFactor: 0 });
-				$('#fore-fore-foreground').mouseParallax({ moveFactor: 12 });
-				$('#about-parallax').mouseParallax({ moveFactor: 5 });
-				
-				$('body').height(13500);
-			});
-</script>
-<script type="text/javascript">
+  <!-- Scripts -->
+  
+  <script src="parallax.js"></script>
+  <script>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
+  // Nothing new here...it's all in the CSS!
+  var scene = document.getElementById('scene');
+  var parallax = new Parallax(scene);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+  </script>
 
 </body>
 </html>

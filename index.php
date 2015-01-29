@@ -33,6 +33,10 @@
   <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
   <link href="message.css" rel="stylesheet">
     
+    <!--mobile and tablet styling 
+    <link rel="stylesheet" media="handheld, only screen and (max-device-width: 320px)" href="">
+    <link rel="stylesheet" media="only screen and (min-width: 641px) and (max-width: 800px)" href="">-->
+    
   <!-- JAVASCRIPT -->
   
     <script src="jquery.js"></script>

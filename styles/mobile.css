@@ -40,13 +40,13 @@ body {
 .backStars{
   background-image: url(img/mobileStars.png);
   background-repeat: repeat;
-  width: 120%;
-  height: 120%;
+  width: 100%;
+  height: 100%;
   
 }
 .backStars>img{
   width: 200%;
-  height: 120%;
+  height: 100%;
   
 }
 

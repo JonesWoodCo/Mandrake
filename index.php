@@ -33,10 +33,9 @@
   <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
   <link href="message.css" rel="stylesheet">
     
-    
-    <link rel="stylesheet" media="handheld, only screen and (max-device-width: 600px)" href="styles/mobile.css">
-    <!--mobile and tablet styling 
-    <link rel="stylesheet" media="only screen and (min-width: 641px) and (max-width: 800px)" href="">-->
+     <!--mobile and tablet styling -->
+  <link rel="stylesheet" media="handheld, only screen and (max-device-width: 600px)" href="styles/mobile.css">
+  <link rel="stylesheet" media="only screen and (min-width: 601px) and (max-width: 800px)" href="styles/tablet.css">
     
   <!-- JAVASCRIPT -->
   
@@ -58,10 +57,10 @@
 	
 	<nav>
 		<ul>
-			<li class= "homeLink mainNav"><a href="http://www.mandrakedesign.com">HOME</a></li>
-			<li class="aboutLink mainNav"><a class="aboutLink" href="underConstruction.php">ABOUT</a></li>
-			<li class="workLink mainNav"><a href="underConstruction.php">WORK</a></li>
-                        <li class="contactLink mainNav messageSocialButton"><a href="#">CONTACT</a></li>
+			<li class= "homeLink mainNav wordLink"><a href="http://www.mandrakedesign.com">HOME</a></li>
+			<li class="aboutLink mainNav wordLink"><a class="aboutLink" href="underConstruction.php">ABOUT</a></li>
+			<li class="workLink mainNav wordLink"><a href="underConstruction.php">WORK</a></li>
+                        <li class="contactLink mainNav wordLink messageSocialButton"><a href="#">CONTACT</a></li>
 			
 			<li class="messageSocialButton buttonanimator mainNav"><a href="#"><img class="socialButtons" src="img/mail.png"></a></li>
 			<li class="twitter buttonanimator mainNav"><a href="https://twitter.com/DesignMandrake"><img class="socialButtons" src="img/twitter.png"></a></li>
@@ -72,9 +71,8 @@
 		
 	</nav>
         <div class="messageBox">
-		<div style="font-family: 'Arvo', serif; font-size: 1.5em; color: #f9ecd9; float: left;">Send me a message!</a>
-		</div>
-		<div class='message-x'><a href='#' style="text-decoration: none; font-family: 'Arvo', serif; font-size: 2.0em; color: #f9ecd9; float: right;">X</a>
+		<div class='message-x contactLink messageSocialButton'>
+		  <a href='#' class='contactLink messageSocialButton' style="text-decoration: none; font-family: 'Arvo', serif; font-size: 2.0em; color: #f9ecd9; float: right;">X</a>
 		</div>
 		<div class="container">						
 		    <form method="post" action="index.php">
@@ -107,12 +105,12 @@
   <div id="container" class="container">
     
     <ul id="scene" class="scene border fill">
-      <li class="layer expand-width" data-depth="1.00"><img class="backStars" src="img/testParallaxLayer.png"></li>
+      <li class="layer expand-width backStars" data-depth="1.00"><img class="backStars" src="img/transparent.png"></li>
+      <li class="layer expand-width" data-depth="1.00"><!--<img class="backStars2" src="img/testParallaxLayer.png">--></li>
       <li class="layer expand-width" data-depth="0.80"><img class="hpotter" src="img/harryMe3.png"></li>
-      <li class="layer expand-width" data-depth="0.60"></li>
       <li class="layer expand-width" data-depth="0.40"><img class="tie-fighter" src="img/tieFighter.png"></li>
       <li class="layer expand-width" data-depth="0.20"><img class="logo" src='img/mandrakeLogo2.png'></li>
-      <li class="layer expand-width" data-depth="0.00"><p class="aboutPara" style="text-align: center; text-shadow: 5px 5px #3b3b3a; font-family: 'Arvo', serif; font-size: 2.5em; color: #f9ecd9;">Hi! I'm Chris. Mandrake is an educational venture that I am embarking upon to learn web design and developement. Here you can find some of the projects that I've worked on. If you want to give me another project to work on, send me a message! </p></li>
+      <li class="layer expand-width" data-depth="0.00"><p class="aboutPara">Hi! I'm Chris. Mandrake is an educational venture that I am embarking upon to learn web design and developement. Here you can find some of the projects that I've worked on. If you want to give me another project to work on, send me a message! </p></li>
       
       
       
@@ -134,6 +132,7 @@
 
 </body>
 </html>
+
 <!--mobile
 http://matthew.wagerfield.com/parallax/
 https://github.com/wagerfield/parallax

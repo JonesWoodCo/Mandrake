@@ -73,7 +73,7 @@
         <div class="messageBox">
 		<div style="font-family: 'Arvo', serif; font-size: 1.5em; color: #f9ecd9; float: left;">Send me a message!</a>
 		</div>
-		<div class='message-x messageSocialButton'><a href='#' style="font-family: 'Arvo', serif; font-size: 2.0em; color: #f9ecd9; float: right;">X</a>
+		<div class='message-x'><a href='#' style="text-decoration: none; font-family: 'Arvo', serif; font-size: 2.0em; color: #f9ecd9; float: right;">X</a>
 		</div>
 		<div class="container">						
 		    <form method="post" action="index.php">

@@ -1,4 +1,6 @@
 <?php
+
+?><?php
 	if(isset($_POST) && !empty($_POST) ){
 		//an email must be sent
 	
@@ -57,7 +59,7 @@
 			      <img class="cornerEM" style="height: 30px; float: left; margin-left: 10px; margin-top: 3px;" src="img/cornerEM.png">
 			      <ul>
 				      <li class= "homeLink mainNav wordLink"><a href="http://www.mandrakedesign.com">HOME</a></li>
-				      <li class="aboutLink mainNav wordLink"><a class="aboutLink" href="about.php">ABOUT</a></li>
+				      <li class="aboutLink mainNav wordLink"><a class="aboutLink" href="underConstruction.php">ABOUT</a></li>
 				      <li class="workLink mainNav wordLink"><a href="underConstruction.php">WORK</a></li>
 				      <li class="contactLink mainNav wordLink messageSocialButton"><a href="#">CONTACT</a></li>
 			      </ul>
@@ -91,13 +93,10 @@
 		</section>
   
 		<div id="container" class="container">
-		      <ul id="scene" class="scene border fill">
+                        <ul id="scene" class="scene border fill">
 			      <li class="layer expand-width backStars" data-depth="1.00"><img class="backStars" src="img/transparent.png"></li>
-			      <li class="layer expand-width" data-depth="1.00"><!--possibly add another layer here later--></li>
-			      <li class="layer expand-width" data-depth="0.80"><img class="hpotter" src="img/harryMe3.png"></li>
-			      <li class="layer expand-width" data-depth="0.40"><img class="tie-fighter" src="img/tieFighter.png"></li>
 			      <li class="layer expand-width" data-depth="0.20"><img class="logo" src='img/mandrakeLogo2.png'></li>
-		      </ul>
+                        </ul>
 		</div>
 		<div class="socialFooterLinks">
 			<a href="http://www.facebook.com/jonescommachris"><img class="bottomButtons" src="img/facebookBottom.png"></a>

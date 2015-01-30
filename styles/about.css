@@ -1,6 +1,7 @@
 body {
   background-image: url(img/29palms.jpg);
   background-repeat: no-repeat;
+  background-position: top;
   background-size: contain;
   background-position: top;
   font-size: 18px;

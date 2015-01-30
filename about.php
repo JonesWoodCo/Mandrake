@@ -95,14 +95,14 @@
 		<div id="container" class="container">
 		      <ul id="scene" class="scene border fill">
 			      <li class="layer expand-width backStars" data-depth="1.00"><img class="backStars" src="img/transparent.png"></li>
-			      <li class="layer expand-width" data-depth="0.20"><img class="logo" src='img/mandrakeLogo2.png'></li>
+			      <li class="layer expand-width" data-depth="0.20"><img class="logo" src='img/mandrakeLogo3.png'></li>
 			      <li class="layer expand-width" data-depth="0.00"><p class="aboutPara">Hi! I'm Chris. Mandrake is an educational venture that I am embarking upon to learn web design and developement. Here you can find some of the projects that I've worked on. If you want to give me another project to work on, send me a message! </p></li>
 		      </ul>
 		</div>
 		<div class="socialFooterLinks">
-			<a href="http://www.facebook.com/jonescommachris"><img class="bottomButtons" src="img/facebookBottom.png"></a>
-			<a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><img class="bottomButtons" src="img/linkedInBottom.png"></a>
-			<a href="https://twitter.com/DesignMandrake"><img class="bottomButtons" src="img/twitterBottom.png"></a>
+			<a href="http://www.facebook.com/jonescommachris"><img class="bottomButtons" src="img/facebookBottom2.png"></a>
+			<a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><img class="bottomButtons" src="img/linkedInBottom2.png"></a>
+			<a href="https://twitter.com/DesignMandrake"><img class="bottomButtons" src="img/twitterBottom2.png"></a>
 		</div>
   
 

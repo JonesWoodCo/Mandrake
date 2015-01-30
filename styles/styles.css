@@ -41,9 +41,9 @@ img {
   margin-right: auto;
 }
 .aboutPara{
-  margin-top: 60%;
-  margin-left:60px;
-  margin-right: 60px;
+  margin-top: 70%;
+  margin-left: 100px;
+  margin-right: 100px;
   text-align: center;
   text-shadow: 5px 5px #3b3b3a;
   font-family: 'Arvo', serif;
@@ -118,8 +118,8 @@ nav {
 
 }
 ul{
-	margin-right: 60px;
-	margin-left: 60px;
+	margin-right: 100px;
+	margin-left: 100px;
 	margin-top: 0px;
 }
 .mainNav {
@@ -175,22 +175,10 @@ nav li a {
 	width: 100%;
         margin: 0px;
 }
-.socialFooterLinks{
-  clear: both;
-    font-family: 'Droid Serif', serif;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 0px;
-  padding-top: 30px;
-  border: 0px;
-  padding: 0px;
-  text-decoration: none;
-  text-align: center;
-}
+
 
 .socialFooterLinks{
-  clear: both;
+  /*clear: both;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -199,22 +187,25 @@ nav li a {
   border: 0px;
   padding: 0px;
   text-decoration: none;
-  text-align: center;
+  text-align: center;*/
+  display: none;
 }
 
 .footerSocial{
-    display: inline;
+   /* display: inline;
     width: 100%;
     height: 50px;
     padding-left: 0px;
     padding-right: 0px;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
+    text-align: center;*/
+   display: none;
 }
 .bottomButtons{
-  height: 30px;
+  /*height: 30px;
   display: inline;
   text-align: center;
-  margin: 20px;
+  margin: 20px;*/
+  display: none;
 }

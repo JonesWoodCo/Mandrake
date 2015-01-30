@@ -28,7 +28,7 @@ img {
 
 .backStars{
   background-image: url(img/testParallaxLayer.png);
-  background-repeat: repeat;
+  background-repeat:no-repeat;
   width: 120%;
   height: 120%;
   

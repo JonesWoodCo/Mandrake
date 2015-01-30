@@ -1,0 +1,193 @@
+.mouse-bg {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	position: fixed;
+	z-index: -1;
+}
+body{
+	background-color: #466576;
+}
+body, html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+
+}
+a {
+	text-decoration: none;
+}
+a:hover{
+	opacity: 0.5;
+    
+}
+
+
+
+
+.content{
+	position: fixed;
+	z-index: 51;
+}
+
+.parallax-content{
+	position: fixed;
+	z-index: 50;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.land-sky{
+	position: fixed;
+	left: -20px;
+	right: -20px;
+	top: 10px;
+	height: 500px;
+	width: 120%;
+}
+.land-sky>img{
+	width: 120%;
+	height: 500px;
+	
+	
+}
+#background{
+	margin-top: 150px;
+	margin-left: -150px;
+	width: 100%;
+}
+#background>img {/*tIE FIGHTER*/
+	height: 700px;
+	
+}
+#foreground {/*HPotter*/
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-top: 290px;
+	margin-left: 290px;
+	text-align: center;
+	
+}
+#foreground>img{
+	width: 700px;
+	margin-left: 15%;
+	margin-right: 15%;
+	
+	
+}
+#fore-foreground {/* logo*/
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-top: 100px;
+	padding-right: 150px;
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+}
+#fore-foreground>img{
+	width: 670px;
+	
+}
+#fore-fore-foreground { /*dots*/
+	width: 150%;
+	background-image: url('img/testParallaxLayer.png');
+	background-repeat: repeat;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+#fore-fore-foreground>img{
+	opacity: 0.5;
+	width: 200px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////
+ /////////////////////////////     SECTION - TOP    ////////////////////////////////
+ /////////////////////////////////////////////////////////////////////////////////*/
+
+#top {	
+	
+	position: absolute;
+	z-index: 9999;
+	width: 100%;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#top p {
+	padding-top: 0px;
+        
+}
+
+.buttonanimator{
+	opacity: 1.0;
+	float: right;
+	margin-left: 10px;
+    
+}
+.buttonanimator:hover{
+	opacity: 0.5;
+}
+
+.socialButtons{
+	height: 22px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+
+nav {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 30px;
+	background: #000000;
+
+}
+ul{
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-top: 0px;
+}
+.mainNav {
+	display: inline-block;
+	padding-top: 4px;
+	padding-right: 5px;
+}
+
+nav li a {
+	color: #f9ecd9;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.7em;
+	
+}
+.slash{
+	font-size: 0.7em;
+}
+
+#contact {
+	width: 100%;
+	height: 400px;
+	background: #1f1f1f;
+        color: #bf5529;
+	
+}
+.messageBox{
+	background-color: #1f1f1f;
+	text-align: center;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-top: 20px;
+	margin-top: 241px;
+	margin-left: 280px;
+	margin-right: 280px;
+	border: hidden;
+	border-radius: 25px
+}

@@ -1,0 +1,170 @@
+body {
+  background-image: url(img/landsky.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  font-size: 18px;
+  background-color: #466576;
+  color: #666;
+  margin: 0;
+  overflow-x: no-display;
+  width: 100%;
+  height: 100%
+}
+
+img {
+  display: block;
+ }
+ 
+.tie-fighter{
+  margin-top: 20%;
+  width: 100%;
+}
+.hpotter{
+  width: 30%;
+  margin-top: 25%;
+  margin-left: 60%;
+}
+
+.backStars{
+  width: 100%;
+}
+.logo{
+  padding-right: 50px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.aboutPara{
+  margin-top: 60%;
+  margin-left:60px;
+  margin-right: 60px;
+  text-align: center;
+  text-shadow: 5px 5px #3b3b3a;
+  font-family: 'Arvo', serif;
+  font-size: 1.0em;
+  color: #f9ecd9;"
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  
+}
+
+.scene {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.expand-width {
+  width: 100%;
+}
+
+
+
+
+
+
+/*sdfgsdfgsdfg*/
+
+#top {	
+	
+	position: absolute;
+	z-index: 9999;
+	width: 100%;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#top p {
+	padding-top: 0px;
+        
+}
+
+.buttonanimator{
+	
+	float: right;
+	margin-left: 10px;
+    
+}
+.mainNav:hover{
+	opacity: 0.5;
+}
+
+.socialButtons{
+	height: 22px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+
+nav {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 30px;
+	background: #000000;
+
+}
+ul{
+	margin-right: 60px;
+	margin-left: 60px;
+	margin-top: 0px;
+}
+.mainNav {
+	opacity: 1.0;
+	display: inline-block;
+	padding-top: 4px;
+	padding-right: 5px;
+}
+
+nav li a {
+	color: #f9ecd9;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.7em;
+        text-decoration: none;
+	
+}
+
+
+#contact {
+	width: 100%;
+	height: 400px;
+	background: #1f1f1f;
+        color: #bf5529;
+	
+}
+.messageBox{
+	background-color: #1f1f1f;
+	text-align: center;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-top: 20px;
+	margin-top: 241px;
+	margin-left: 280px;
+	margin-right: 280px;
+	border: hidden;
+	border-radius: 25px
+}
+
+
+.land-sky{
+	position: fixed;
+	top: 10px;
+	height: 500px;
+	width: 100%;
+        margin: 0px;
+}
+
+.land-sky>img{
+	height: 500px;
+	width: 100%;
+        margin: 0px;

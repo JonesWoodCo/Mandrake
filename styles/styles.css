@@ -17,12 +17,12 @@ img {
  }
  
 .tie-fighter{
-  margin-top: 20%;
-  width: 100%;
+  margin-top: 15%;
+  width: 90%;
 }
 .hpotter{
   width: 30%;
-  margin-top: 25%;
+  margin-top: 20%;
   margin-left: 60%;
 }
 
@@ -196,6 +196,9 @@ a:hover{
   padding: 0px;
   text-decoration: none;
   text-align: center;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
 }
 
 .footerSocial{

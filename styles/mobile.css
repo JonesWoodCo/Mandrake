@@ -12,9 +12,20 @@ body {
   height: 100%
 }
 
-img {
-  display: block;
- }
+
+
+.land-sky{
+	position: fixed;
+	height: 500px;
+	width: 100%;
+       
+}
+
+.land-sky>img{
+	height: 500px;
+	width: 100%;
+        margin-top: 20px;
+}
  
 .tie-fighter{
   margin-top: 40%;
@@ -164,17 +175,3 @@ nav li a {
 	border-radius: 0px;
 	height: 100%;
 }
-
-
-.land-sky{
-	position: fixed;
-	top: 10px;
-	height: 500px;
-	width: 100%;
-        margin: 0px;
-}
-
-.land-sky>img{
-	height: 500px;
-	width: 100%;
-        margin: 0px;

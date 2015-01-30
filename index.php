@@ -33,8 +33,9 @@
   <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
   <link href="message.css" rel="stylesheet">
     
+    
+    <link rel="stylesheet" media="handheld, only screen and (max-device-width: 600px)" href="styles/mobile.css">
     <!--mobile and tablet styling 
-    <link rel="stylesheet" media="handheld, only screen and (max-device-width: 320px)" href="">
     <link rel="stylesheet" media="only screen and (min-width: 641px) and (max-width: 800px)" href="">-->
     
   <!-- JAVASCRIPT -->

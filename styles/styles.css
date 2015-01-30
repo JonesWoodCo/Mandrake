@@ -128,8 +128,8 @@ ul{
 	opacity: 1.0;
 	display: inline-block;
 	padding-top: 4px;
-	padding-right: 100px;
-	padding-left: 100px;
+	padding-right: 80px;
+	padding-left: 80px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -187,7 +187,7 @@ nav li a {
   clear: both;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 150px;
   margin-bottom: 0px;
   padding-top: 30px;
   border: 0px;

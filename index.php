@@ -58,7 +58,7 @@
 			      <ul>
 				      <li class= "homeLink mainNav wordLink"><a href="http://www.mandrakedesign.com">HOME</a></li>
 				      <li class="aboutLink mainNav wordLink"><a class="aboutLink" href="about.php">ABOUT</a></li>
-				      <li class="workLink mainNav wordLink"><a href="underConstruction.php">WORK</a></li>
+				      <li class="workLink mainNav wordLink"><a href="work.php">WORK</a></li>
 				      <li class="contactLink mainNav wordLink messageSocialButton"><a href="#">CONTACT</a></li>
 			      </ul>
 		      </nav>

@@ -29,18 +29,23 @@ body {
  
 .tie-fighter{
   margin-top: 40%;
-  width: 100%;
+  width: 120%;
 }
 .hpotter{
-  width: 30%;
+  width: 35%;
   margin-top: 45%;
   margin-left: 60%;
 }
 
 .backStars{
-  background-image: url(img/testParallaxLayer.png);
+  background-image: url(img/mobileStars.png);
   background-repeat: repeat;
   width: 120%;
+  height: 120%;
+  
+}
+.backStars>img{
+  width: 200%;
   height: 120%;
   
 }
@@ -54,8 +59,9 @@ body {
   width: 100%;
 }
 .aboutPara{
-  margin-top: 85%;
+  margin-top: 90%;
   margin-left:10px;
+  padding-top: 20px;
   margin-right: 10px;
   text-align: center;
   text-shadow: 5px 5px #3b3b3a;
@@ -177,4 +183,31 @@ nav li a {
 }
 .message-x{
   display: none;
+}
+
+.socialFooterLinks{
+  clear: both;
+    font-family: 'Droid Serif', serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  border: 0px;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footerSocial{
+    list-style: none;
+    padding-left: 0px;
+}
+.footerSocial > li {
+    margin: 15px;
+    padding: 0px;
+    border: 0px;
+    list-style: none;
+    display: inline;
+    text-align: center;
 }

@@ -32,8 +32,7 @@
 	
 	  <!-- Styles -->
 	  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-	  <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
-          <link href="styles/about.css" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="styles/about.css"/>
 	  <link href="message.css" rel="stylesheet">
 	    
 	     <!--mobile and tablet styling -->

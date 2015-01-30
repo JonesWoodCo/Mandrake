@@ -1,0 +1,12 @@
+body {
+  background-image: url(img/29palms.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  font-size: 18px;
+  background-color: #ccb98f;
+  color: #666;
+  margin: 0;
+  width: 100%;
+  height: 100%
+}

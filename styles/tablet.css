@@ -28,7 +28,7 @@ img {
 
 .backStars{
   background-image: url(img/testParallaxLayer.png);
-  background-repeat:no-repeat;
+  background-repeat: repeat;
   width: 120%;
   height: 120%;
   
@@ -184,10 +184,8 @@ nav li a {
 
 
 .socialFooterLinks{
-  clear: both;
   margin-left: auto;
   margin-right: auto;
- 
   margin-bottom: 0px;
   padding-top: 30px;
   border: 0px;

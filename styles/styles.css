@@ -40,16 +40,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.aboutPara{
-  margin-top: 20%;
-  margin-left: 100px;
-  margin-right: 100px;
-  text-align: center;
-  text-shadow: 5px 5px #3b3b3a;
-  font-family: 'Arvo', serif;
-  font-size: 2.5em;
-  color: #f9ecd9;"
-}
+
 .container {
   position: relative;
   width: 100%;

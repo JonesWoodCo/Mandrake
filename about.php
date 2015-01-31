@@ -37,7 +37,7 @@
 	    
 	     <!--mobile and tablet styling -->
 	  <link rel="stylesheet" media="handheld, only screen and (max-device-width: 600px)" href="styles/aboutMobile.css">
-	  <!--<link rel="stylesheet" media="only screen and (min-width: 601px) and (max-width: 800px)" href="styles/tablet.css">-->
+	  <link rel="stylesheet" media="only screen and (min-width: 601px) and (max-width: 800px)" href="styles/aboutTablet.css">
 	    
 	  <!-- JAVASCRIPT -->
 	  

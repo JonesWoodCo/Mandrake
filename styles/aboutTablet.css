@@ -1,0 +1,213 @@
+body {
+  background-image: url(img/twoninePalms.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  font-size: 18px;
+  background-color: #ccb98f;
+  color: #666;
+  margin: 0;
+  overflow-x: no-display;
+  width: 100%;
+  height: 100%
+}
+
+
+
+.land-sky{
+	position: fixed;
+	height: 500px;
+	width: 100%;
+       
+}
+
+.land-sky>img{
+	height: 500px;
+	width: 100%;
+        margin-top: 20px;
+}
+ 
+.tie-fighter{
+  margin-top: 40%;
+  width: 120%;
+}
+.hpotter{
+  width: 35%;
+  margin-top: 45%;
+  margin-left: 60%;
+}
+
+.backStars{
+  background-image: url(img/mobileSands.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  
+}
+.backStars>img{
+  width: 200%;
+  height: 100%;
+  
+}
+
+.logo{
+  padding-right: 0px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+.aboutPara{
+  margin-top: 59%;
+  margin-left: 25px;
+  padding-top: 20px;
+  margin-right: 25px;
+  text-align: center;
+  font-family: 'Arvo', serif;
+  font-size: 0.9em;
+  color: #3b3b3a;"
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  
+}
+
+.scene {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.expand-width {
+  width: 100%;
+}
+
+
+
+
+
+
+/*sdfgsdfgsdfg*/
+
+#top {	
+	
+	position: absolute;
+	z-index: 9999;
+	width: 100%;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#top p {
+	padding-top: 0px;
+        
+}
+
+
+.mainNav:hover{
+	opacity: 0.5;
+}
+
+.socialButtons{
+	height: 18px;
+	margin-left: 3px;
+	margin-right: 3px;
+	display: none;
+}
+
+
+nav {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 40px;
+	background: #000000;
+
+}
+ul{
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 7px;
+	padding-left: 0px;
+}
+.mainNav {
+	opacity: 1.0;
+	display: inline-block;
+	padding-top: 4px;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-align: center;
+}
+
+nav li a {
+	color: #f9ecd9;
+	font-family: 'Arvo', serif;
+	font-size: 0.9em;
+        text-decoration: none;
+	text-align: center;
+}
+.cornerEM{
+  display: none;
+}
+
+#contact {
+	width: 100%;
+	height: 400px;
+	background: #1f1f1f;
+        color: #bf5529;
+	
+}
+.messageBox{
+	background-color: #1f1f1f;
+	text-align: center;
+	padding-right: 40px;
+	padding-bottom: 200px;
+	padding-left: 40px;
+	padding-top: 40px;
+	margin-top: 40px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border: hidden;
+	border-radius: 0px;
+	height: 100%;
+}
+.message-x{
+  display: none;
+}
+
+.socialFooterLinks{
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  border: 0px;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footerSocial{
+    display: inline;
+    width: 100%;
+    height: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.bottomButtons{
+  height: 25px;
+  display: inline;
+  text-align: center;
+  margin: 20px;
+}

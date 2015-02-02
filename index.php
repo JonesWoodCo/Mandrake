@@ -102,7 +102,8 @@
 		<div class="socialFooterLinks">
 			<a href="http://www.facebook.com/jonescommachris"><img class="bottomButtons" src="img/facebookBottom.png"></a>
 			<a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><img class="bottomButtons" src="img/linkedInBottom.png"></a>
-			<a href="https://twitter.com/DesignMandrake"><img class="bottomButtons" src="img/twitterBottom.png"></a>
+			<a href="https://dribbble.com/topherJonesy"><img class="bottomButtons" src="img/dribbble.png"></a>
+                        <a href="https://twitter.com/DesignMandrake"><img class="bottomButtons" src="img/twitterBottom.png"></a>
 		</div>
   
 

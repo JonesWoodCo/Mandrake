@@ -16,24 +16,6 @@ img {
   display: block;
  }
  
-.tie-fighter{
-  margin-top: 15%;
-  width: 90%;
-}
-.hpotter{
-  width: 30%;
-  margin-top: 20%;
-  margin-left: 60%;
-}
-
-.backStars{
-  background-image: url(img/testParallaxLayer.png);
-  background-repeat: repeat;
-  width: 120%;
-  height: 120%;
-  
-}
-
 .logo{
   padding-right: 50px;
   margin-top: 60px;

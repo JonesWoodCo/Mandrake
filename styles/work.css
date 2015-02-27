@@ -16,6 +16,18 @@ img {
   display: block;
  }
 
+.clouds-forefront{
+  width: 100%;
+  margin-top: 30px;
+}
+.mountains{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.backSky{
+  height: 500px;
+}
 .more-to-come{
   width: 500px;
   height: 300px;
@@ -41,18 +53,16 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 500px;
-  height: 300px;
 }
 
 .hh-work{
-  height: 300px;
   width:  500px;
   margin-top: 500px;
   text-align: center;
 }
 .hh-container>a>img{
   opacity: 1.0;
-  height: 100%;
+  width: 100%;
   padding: 0px;
   margin: 0px;
 }

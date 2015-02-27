@@ -27,47 +27,8 @@ body {
         margin-top: 20px;
 }
  
-.tie-fighter{
-  margin-top: 40%;
-  width: 120%;
-}
-.hpotter{
-  width: 35%;
-  margin-top: 45%;
-  margin-left: 60%;
-}
 
-.backStars{
-  background-image: url(img/mobileSands.png);
-  background-repeat: repeat;
-  width: 100%;
-  height: 100%;
-  
-}
-.backStars>img{
-  width: 200%;
-  height: 100%;
-  
-}
 
-.logo{
-  padding-right: 0px;
-  margin-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 100%;
-}
-.aboutPara{
-  margin-top: 70%;
-  margin-left: 25px;
-  padding-top: 20px;
-  margin-right: 25px;
-  text-align: center;
-  font-family: 'Arvo', serif;
-  font-size: 1.8em;
-  color: #3b3b3a;
-}
 .container {
   position: relative;
   width: 100%;

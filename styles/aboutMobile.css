@@ -1,17 +1,19 @@
 body {
-  background-image: url(img/twoninePalms.png);
+   background-image: url(img/landsky2.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: top;
   font-size: 18px;
-  background-color: #ccb98f;
+  background-color: #e8e9ea;
   color: #666;
   margin: 0;
   overflow-x: no-display;
   width: 100%;
   height: 100%
 }
-
+.mountains{
+  width: 100%;
+}
 
 
 .land-sky{

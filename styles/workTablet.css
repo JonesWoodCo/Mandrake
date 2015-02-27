@@ -1,10 +1,10 @@
 body {
-  background-image: url(img/twoninePalms.png);
+  background-image: url(img/landsky2.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: top;
   font-size: 18px;
-  background-color: #ccb98f;
+   background-color: #e8e9ea;
   color: #666;
   margin: 0;
   overflow-x: no-display;
@@ -13,18 +13,8 @@ body {
 }
 
 
-
-.land-sky{
-	position: fixed;
-	height: 500px;
-	width: 100%;
-       
-}
-
-.land-sky>img{
-	height: 500px;
-	width: 100%;
-        margin-top: 20px;
+.backSky{
+  height: 200px;
 }
  
 
@@ -49,7 +39,45 @@ body {
   width: 100%;
 }
 
+.mountains{
+   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+
+.work-content{
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  background-color: #e8e9ea;
+  text-align: center;
+  margin-top: 200px;
+}
+.hh-container{
+  background-image: url('img/hh-work-hover.png');
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.hh-work{
+  margin-top: 500px;
+  text-align: center;
+  width: 100%;
+}
+.hh-container>a>img{
+  opacity: 1.0;
+  padding: 0px;
+  margin: 0px;
+}
+.hh-container>a>img:hover{
+  opacity: 0.0;
+}
 
 
 

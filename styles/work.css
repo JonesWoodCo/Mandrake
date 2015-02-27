@@ -4,7 +4,7 @@ body {
   background-size: cover;
   background-position: top;
   font-size: 18px;
-  background-color: #f7f8f9;
+  background-color: #e8e9ea;
   color: #666;
   margin: 0;
   overflow-x: no-display;
@@ -15,31 +15,31 @@ body {
 img {
   display: block;
  }
- 
-.logo{
-  padding-right: 50px;
-  margin-top: 60px;
+
+.more-to-come{
+  width: 500px;
+  height: 300px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
+  background-color: #e6e6e6;
+  
 }
-
-
-
-
-
-
 .work-content{
   position: absolute;
   z-index: 9999;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 50px;
   background-color: #e8e9ea;
   text-align: center;
+  margin-top: 20px;
 }
 .hh-container{
   background-image: url('img/hh-work-hover.png');
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 500px;
   height: 300px;
 }

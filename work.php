@@ -32,7 +32,7 @@
 	
 	  <!-- Styles -->
 	  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-	  <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+	  <link rel="stylesheet" type="text/css" href="styles/work.css"/>
 	  <link href="message.css" rel="stylesheet">
 	    
 	     <!--mobile and tablet styling -->
@@ -93,11 +93,20 @@
 		</section>
   
 		<div id="container" class="container">
-                        <ul id="scene" class="scene border fill">
-			      <li class="layer expand-width backStars" data-depth="1.00"><img class="backStars" src="img/transparent.png"></li>
-			      <li class="layer expand-width" data-depth="0.20"></li>
-                        </ul>
+		      <ul id="scene" class="scene border fill">
+			      <li class="layer expand-width backStars" data-depth="1.00"><img style="height: 500px;" class="backSky" src="img/transparent.png"></li>
+			      <li class="layer expand-width" data-depth="1.00"><!--possibly add another layer here later--></li>
+			      <li class="layer expand-width" data-depth="0.10"><img style="margin-top: 50px; margin-left: auto; margin-right: auto;" class="mountains" src="img/mountains2.png"></li>
+			      <li class="layer expand-width" data-depth="0.40"><img style="width: 100%; margin-top: 30px;" class="clouds-forefront" src="img/workclouds.png"></li>
+			      <li class="layer expand-width" data-depth="0.0"></li>
+		      </ul>
 		</div>
+                <div class="work-content">
+                    <div class="hh-container">
+                        <a href="http://www.haleyhalverson.com"><img class="hh-work" src="img/hh-work.png"></a>
+                    </div>
+                   
+                </div>
 		<div class="socialFooterLinks">
 			<a href="http://www.facebook.com/jonescommachris"><img class="bottomButtons" src="img/facebookBottom.png"></a>
 			<a href="https://dribbble.com/topherJonesy"><img class="bottomButtons" src="img/dribbble.png"></a>

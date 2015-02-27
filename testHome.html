@@ -1,16 +1,4 @@
-<?php
-	if(isset($_POST) && !empty($_POST) ){
-		//an email must be sent
-	
-		$name=$_POST['name'];
-		$sender=$_POST['email'];
-		$subject=$_POST['subject'];
-		$message=$_POST['message'];
-	
-		$email="Name: " . $name . "\n". "\n" . "Email: " . $sender . "\n". "\n" . "Subject: " . $subject . "\n". "\n" . "Message: " . $message;
-		mail("cjones@sycamoreleaf.com", $subject, $email);
-	}
-?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -96,7 +84,7 @@
 			      <li class="layer expand-width" data-depth="1.00"></li>
 			      <li class="layer expand-width" data-depth="0.80"></li>
 			      <li class="layer expand-width" data-depth="0.40"></li>
-			      <li class="layer expand-width" data-depth="0.20"></li>
+			      <li class="layer expand-width" data-depth="0.0"><img src="hh-work-hover.png"></li>
 		      </ul>
 		</div>
 		<div class="socialFooterLinks">

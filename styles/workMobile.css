@@ -176,6 +176,8 @@ nav li a {
   padding: 0px;
   text-decoration: none;
   text-align: center;
+  position: absolute;
+  z-index: 9999;
 }
 
 .footerSocial{

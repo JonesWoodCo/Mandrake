@@ -1,4 +1,16 @@
-
+<!--<?php
+	if(isset($_POST) && !empty($_POST) ){
+		//an email must be sent
+	
+		$name=$_POST['name'];
+		$sender=$_POST['email'];
+		$subject=$_POST['subject'];
+		$message=$_POST['message'];
+	
+		$email="Name: " . $name . "\n". "\n" . "Email: " . $sender . "\n". "\n" . "Subject: " . $subject . "\n". "\n" . "Message: " . $message;
+		mail("cjones@sycamoreleaf.com", $subject, $email);
+	}
+?> -->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -18,12 +30,12 @@
 	
 	  <!-- Styles -->
 	  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-	  <link rel="stylesheet" type="text/css" href="styles/work.css"/>
+	  <link rel="stylesheet" type="text/css" href="styles/test.css"/>
 	  <link href="message.css" rel="stylesheet">
 	    
 	     <!--mobile and tablet styling -->
-	  <link rel="stylesheet" media="handheld, only screen and (max-device-width: 600px)" href="styles/workMobile.css">
-	  <link rel="stylesheet" media="only screen and (min-width: 601px) and (max-width: 800px)" href="styles/workTablet.css">
+	  <link rel="stylesheet" media="handheld, only screen and (max-device-width: 600px)" href="styles/mobile.css">
+	  <link rel="stylesheet" media="only screen and (min-width: 601px) and (max-width: 800px)" href="styles/tablet.css">
 	    
 	  <!-- JAVASCRIPT -->
 	  
@@ -50,7 +62,7 @@
 				      <li class="contactLink mainNav wordLink messageSocialButton"><a href="#">CONTACT</a></li>
 			      </ul>
 		      </nav>
-		      <div class="messageBox">
+		     <!-- <div class="messageBox">
 			      <div class='message-x'>
 				      <a href='#' class='messageSocialButton' style="text-decoration: none; font-family: 'Arvo', serif; font-size: 2.0em; color: #f9ecd9; float: right;">X</a>
 			      </div>
@@ -75,30 +87,27 @@
 					      </div>
 				      </form>
 			      </div>
-		      </div>
+		      </div>-->
 		</section>
   
 		<div id="container" class="container">
 		      <ul id="scene" class="scene border fill">
-			      <li class="layer expand-width backStars" data-depth="1.00"><img class="backSky" src="img/transparent.png"></li>
+			      <li class="layer expand-width backStars" data-depth="1.00"><img class="backStars" src="img/transparent.png"></li>
 			      <li class="layer expand-width" data-depth="1.00"><!--possibly add another layer here later--></li>
-			      <li class="layer expand-width" data-depth="0.10"><img class="mountains" src="img/mountains2.png"></li>
-			      <li class="layer expand-width" data-depth="0.40"><img class="clouds-forefront" src="img/workclouds.png"></li>
-			      <li class="layer expand-width" data-depth="0.0"></li>
+			      <li class="layer expand-width" data-depth="0.80"><img class="hpotter" src="img/harryMe3.png"></li>
+			      <li class="layer expand-width" data-depth="0.40"><img class="tie-fighter" src="img/tieFighter.png"></li>
+			      <li class="layer expand-width" data-depth="0.20"><img class="logo" src='img/mandrakeLogo2.png'></li>
 		      </ul>
 		</div>
-                <div class="work-content">
-                    <div class="hh-container">
-                        <a href="http://www.haleyhalverson.com"><img class="hh-work" src="img/hh-work.png"></a>
-                    </div>
-                   
-                </div>
-                
+               <!-- <div class='indexcontent'>
+                    <div class="barrier"> </div>
+                    <p>bla bla bla</p>
+                </div>-->
 		<div class="socialFooterLinks">
-			<a href="http://www.facebook.com/jonescommachris"><img class="bottomButtons" src="img/facebookBottom2.png"></a>
-			<a href="https://dribbble.com/topherJonesy"><img class="bottomButtons" src="img/dribbble2.png"></a>
-			<a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><img class="bottomButtons" src="img/linkedInBottom2.png"></a>
-			<a href="https://twitter.com/DesignMandrake"><img class="bottomButtons" src="img/twitterBottom2.png"></a>
+			<a href="http://www.facebook.com/jonescommachris"><img class="bottomButtons" src="img/facebookBottom.png"></a>
+                        <a href="https://dribbble.com/topherJonesy"><img class="bottomButtons" src="img/dribbble.png"></a>
+			<a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><img class="bottomButtons" src="img/linkedInBottom.png"></a>
+                        <a href="https://twitter.com/DesignMandrake"><img class="bottomButtons" src="img/twitterBottom.png"></a>
 		</div>
   
 
@@ -111,12 +120,22 @@
 			var parallax = new Parallax(scene);
 	
 		</script>
-				
+				<!-- Start of StatCounter Code
+		<script type="text/javascript">
+			var sc_project=10312296; 
+			var sc_invisible=1; 
+			var sc_security="0b0e0010"; 
+			var scJsHost = (("https:" == document.location.protocol) ?
+			"https://secure." : "http://www.");
+			document.write("<sc"+"ript type='text/javascript' src='" +
+			scJsHost+
+			"statcounter.com/counter/counter.js'></"+"script>");
+		</script>
+		<noscript><div class="statcounter"><a title="web analytics"
+		href="http://statcounter.com/" target="_blank"><img
+		class="statcounter"
+		src="http://c.statcounter.com/10312296/0/0b0e0010/1/"
+		alt="web analytics"></a></div></noscript>
+		 End of StatCounter Code -->
 	</body>
 </html>
-<!--mobile
-http://matthew.wagerfield.com/parallax/
-https://github.com/wagerfield/parallax
-http://www.html5rocks.com/en/mobile/mobifying/
-http://stackoverflow.com/questions/11895620/how-to-create-a-completely-device-compatible-website
--->

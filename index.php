@@ -13,7 +13,7 @@
 ?>
 <!DOCTYPE html>
 <html>
-	<head>
+	<head><!--this is from mandrakeServer-->
 	
 	  <meta charset="utf-8">
 	

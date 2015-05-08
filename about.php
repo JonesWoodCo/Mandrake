@@ -9,8 +9,8 @@
 		$subject=$_POST['subject'];
 		$message=$_POST['message'];
 	
-		$email="Name: " . $name . "\n". "\n" . "Email: " . $sender . "\n". "\n" . "Subject: " . $subject . "\n". "\n" . "Message: " . $message;
-		mail("cjones@sycamoreleaf.com", $subject, $email);
+		$email="FROM MANDRAKE DESIGN"."\n"."\n"."Name: " . $name . "\n". "\n" . "Email: " . $sender . "\n". "\n" . "Subject: " . $subject . "\n". "\n" . "Message: " . $message;
+		mail("cjones.wingsofgold@gmail.com", $subject, $email);
 	}
 ?>
 <!DOCTYPE html>
@@ -52,7 +52,6 @@
 	    <link rel="icon" type="image/png" href="img/mandrakeFavicon.png">
 	</head>
 
-
 	<body>
 		<section id="top">
 		      <nav>
@@ -61,35 +60,56 @@
 				      <li class= "homeLink mainNav wordLink"><a href="http://www.mandrakedesign.com">HOME</a></li>
 				      <li class="aboutLink mainNav wordLink"><a class="aboutLink" href="about.php">ABOUT</a></li>
 				      <li class="workLink mainNav wordLink"><a href="work.php">WORK</a></li>
-				      <li class="contactLink mainNav wordLink messageSocialButton"><a href="#">CONTACT</a></li>
+				      <li class="contactLink mainNav wordLink toggle-contact-modal"><a href="#">CONTACT</a></li>
 			      </ul>
 		      </nav>
-		      <div class="messageBox">
-			      <div class='message-x'>
-				      <a href='#' class='messageSocialButton' style="text-decoration: none; font-family: 'Arvo', serif; font-size: 2.0em; color: #f9ecd9; float: right;">X</a>
-			      </div>
-			      <div class="container" style="height: 334px;">						
-				      <form method="post" action="index.php">
-					      <div class="row uniform">
-						      <div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-						      <div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-					      </div>
-					      <div class="row uniform">
-						      <div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-					      </div>
-					      <div class="row uniform">
-						      <div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-					      </div>
-					      <div class="row uniform">
-						      <div class="12u">
-							      <ul style=" list-style: none;" class="actions">
-								      <li><input style="display: inline; width: 150px; border: 0px;" type="submit" class="sendMessage" value="Send Message" /></li>
-							      </ul>
-						      </div>
-					      </div>
-				      </form>
-			      </div>
-		      </div>
+		      <!--CONTACT MODAL-->
+			<script>
+				$(document).ready(function(){
+				
+				   $('.toggle-contact-modal').click(function() {  
+				       $('.contact-modal').toggle();
+				   });
+				});
+			</script>
+			<DIV class="modal contact-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="newModalLabel" aria-hidden="true" style='display: none;'>
+			  <DIV class="modal-dialog">
+			    <DIV class="modal-content">
+			      <DIV class="modal-header">
+				<P style='padding-top: 10px; margin-top: 0px;' class="modal-title jl-large" id="newModalLabel">CONTACT MANDRAKE</P>
+			      </DIV>
+			      <FORM method=POST action='index.php'> <!--change based on what page this is nested -->
+				
+				<DIV class="modal-body">
+				    <TABLE class='modal-contact-table' style='width: 90%; margin: 0 5% 0 5%;'>
+				       
+					<TR>
+					    <!--SENDER'S NAME-->
+					    <TD style='width: 75%;' class='jl-left'><INPUT type="text" name="name" id="name" placeholder="Your Name:" style='width: 100%; height: 25px; font-size: medium;'></TD>
+					</TR>
+					<TR>
+					    <!--SENDER'S EMAIL-->
+					    <TD class='jl-left'><INPUT name="email" id="email" placeholder="Email:" style='width: 100%; height: 25px; font-size: medium;'></TD>
+					</TR>
+					<TR>
+					    <!--SUBJECT-->
+					    <TD class='jl-left'><INPUT type="text" name="subject" id="subject" placeholder="Subject:" style='width: 100%; height: 25px; font-size: medium;'></TD>
+					</TR>
+					<TR>
+					    <!--MESSAGE-->
+					    <TD class='jl-left'><textarea name="message" id="message" placeholder="Message:" style='width: 100%; height: 150px; font-size: medium; font-family: Arial;'></textarea></TD>
+					</TR>
+					
+				    </TABLE>
+				
+				  <BUTTON type="button" class="btn btn-default toggle-contact-modal" style='padding: 3px;'>Cancel</BUTTON>
+				  <BUTTON type="submit" class="sendMessage btn btn-primary" style='padding: 3px;'>Send</BUTTON>
+				  
+				</DIV>
+				</FORM>
+			    </DIV>
+			  </DIV>
+			</DIV>
 		</section>
   
 		<div id="container" class="container">
